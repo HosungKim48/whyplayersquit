@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How I check AI labels before trusting them · Quit Signals</title>
+<meta name="description" content="A language model labeled 56,187 reviews for me. Here is what I did before believing a single percentage it produced.">
+<meta property="og:title" content="How I check AI labels before trusting them · Quit Signals">
+<meta property="og:description" content="A language model labeled 56,187 reviews for me. Here is what I did before believing a single percentage it produced.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../../css/site.css">
+
+</head>
+<body data-root="../../">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../../projects/">Projects</a></li><li><a href="../../method/">Method</a></li><li><a href="../../notes/" aria-current="page">Notes</a></li><li><a href="../../data/">Data</a></li><li><a href="../../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<article class="prose center">
+<h1>How I check AI labels before trusting them</h1>
+<p class="meta"><a href="../../notes/">Notes</a> · Nov 19, 2026 · Hosung Kim</p>
+<p class="lede">A language model labeled 56,187 reviews for me. Here is what I did before believing a single percentage it produced.</p>
+<p>Every number in the WARDOGS report depends on one step: a language model reading each negative review and deciding why the reviewer was unhappy. If that step is wrong, the charts are just confident-looking mistakes. So before trusting any percentage, I built in four checks.</p>
+<h2>1. Read the reviews myself first</h2>
+<p>I didn't start with the model. I hand-read 300 negative reviews, spread across languages, time periods and playtime groups, with extra new players because they write the shortest and most ambiguous reviews. I labeled each one myself.</p>
+<p>That reading produced the codebook: 12 categories, each with a definition, what to include, what to exclude, and tie-break rules. The tie-breaks matter most. "I can't play with my friends" sounds like a social problem, but in my sample it was almost always caused by the ping cap, so the codebook sends it there. "Bad devs" with no detail goes to unclear, not to developer trust. Without rules like these, the model makes a reasonable guess, and reasonable guesses differ from review to review.</p>
+<h2>2. Run a small pilot against my own labels</h2>
+<p>Next I picked 50 reviews from my hand-read set, at least four per category, and had Claude Haiku 5.5 label them with the codebook. Its main reason matched mine <strong>78%</strong> of the time. When I also counted its second reason, it matched <strong>88%</strong> of the time.</p>
+<p>The misses taught me as much as the matches. In 5 of the 11 misses, the review had two real complaints and the model picked my main one as its second. That told me main-reason shares carry real uncertainty, which is why the site also shows "any mention" views. The pilot also showed some formatting issues: the short evidence field ran over its 15-word limit in 5 of 50 reviews. That's harmless for analysis, but I wouldn't have known without looking.</p>
+<h2>3. Check the full run for quiet failures</h2>
+<p>The full run labeled 56,187 reviews. Nine failed: six produced runaway text that hit the length limit, and three were declined by the model's safety filter. I dropped those nine rather than guessing.</p>
+<p>Then I looked for patterns that are technically valid but wrong. The biggest one: the model often put "unclear / other" as the secondary reason when it really meant "no second reason" (2,869 reviews). Counting those as real mentions would have inflated the unclear category, so the analysis treats them as none. In 14 reviews the secondary reason repeated the main one; those count as none too.</p>
+<h2>4. Spot-check a random sample</h2>
+<p>Finally, I drew 50 labeled reviews at random, excluding the 300 I had already read, and judged each label myself. I counted <strong>44 of 50</strong> as correct, about 88%.</p>
+<p>The errors were mostly judgment calls rather than nonsense. A one-line complaint that the game is "built on bugs" was filed as unclear instead of technical. A review about generic guns and stiff vehicles was filed as cheaters. One review that mixed anti-cheat, balance and grind got gameplay &amp; design. None of these were random noise, but each would shift a percentage slightly.</p>
+<h2>What 88% means for the findings</h2>
+<p>An 88% accurate label is good enough for big patterns, not for fine distinctions. If two reasons differ by a point or two, I don't treat that as a finding. The main WARDOGS results are much larger: among 10–50h players, 70% of those whose main complaint was the ping cap stopped playing, against 35% for the group. A labeling error rate near 12% can't plausibly create a gap that size.</p>
+<p>I also state the accuracy on every report, next to the fact that the data covers only people who wrote negative reviews. Readers should know how much to trust the numbers.</p>
+<h2>What I'd do with more time</h2>
+<p>A second human labeler would tell me how often two people disagree, which is the real ceiling for any model. And re-running the spot check on each new game would catch a codebook that fits WARDOGS but not the next title.</p>
+<hr><p class="meta">Numbers come from the <a href="../../projects/wardogs/">WARDOGS project</a> and its <a href="../../method/">method</a>. Data covers only people who wrote negative reviews.</p>
+</article>
+
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>

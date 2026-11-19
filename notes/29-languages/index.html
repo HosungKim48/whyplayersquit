@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turning reviews in 29 languages into one dataset for $4 · Quit Signals</title>
+<meta name="description" content="How 207,494 Steam reviews became one labeled table, without a translation step, for under four dollars in model costs.">
+<meta property="og:title" content="Turning reviews in 29 languages into one dataset for $4 · Quit Signals">
+<meta property="og:description" content="How 207,494 Steam reviews became one labeled table, without a translation step, for under four dollars in model costs.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../../css/site.css">
+
+</head>
+<body data-root="../../">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../../projects/">Projects</a></li><li><a href="../../method/">Method</a></li><li><a href="../../notes/" aria-current="page">Notes</a></li><li><a href="../../data/">Data</a></li><li><a href="../../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<article class="prose center">
+<h1>Turning reviews in 29 languages into one dataset for $4</h1>
+<p class="meta"><a href="../../notes/">Notes</a> · Nov 19, 2026 · Hosung Kim</p>
+<p class="lede">How 207,494 Steam reviews became one labeled table, without a translation step, for under four dollars in model costs.</p>
+<p>WARDOGS players review in a lot of languages. Of the 56,187 negative reviews I ended up labeling, about half were in English, a quarter in Simplified Chinese, and the rest spread across Russian, German, Korean, Traditional Chinese, Portuguese and 22 more. Any analysis that only reads English misses a big part of the story. Here is how the dataset came together.</p>
+<h2>Collect everything</h2>
+<p>Steam has a public reviews API that needs no key. A few weeks before I started, Steam retired the old endpoint, so the collector uses the newer one. It pages through reviews 100 at a time, waits one second between requests, and backs off if rate-limited. For WARDOGS that meant 2,077 pages and <strong>207,494</strong> reviews from launch day, Sep 10, to Nov 19, 2026.</p>
+<p>Each review comes with the text, the language, whether it was positive, and two playtime numbers: hours at the time of the review and hours now. Those two numbers are what make quit analysis possible.</p>
+<h2>Filter cheaply before spending anything</h2>
+<p>Most of the work is free. Code kept only negative reviews (<strong>61,836</strong>), then dropped very short ones. The rule is 20 characters, except 8 for Chinese, Japanese and Korean, where a short string carries a full sentence. That left <strong>56,196</strong> reviews. Nothing here needs a model; it's just a few lines of pandas.</p>
+<h2>Label in the original language</h2>
+<p>The usual approach would be to translate everything into English and then classify it. I skipped translation. The model reads each review in its original language and answers in English, using the same 12 category codes for everyone. That removes a whole step, and a source of error: translation flattens the slang and in-game shorthand players use.</p>
+<p>It also keeps categories consistent across languages, which matters because languages tell different stories. Among Simplified Chinese negative reviews, the ping cap was the main reason in 18.6%. Among English ones, the most common main reason was balance, at 16.9%. A study in one language would get a different "top complaint" depending on which one it picked.</p>
+<h2>Make it cheap: batches and caching</h2>
+<p>Two features kept the cost tiny.</p>
+<ul>
+<li><strong>Batch processing.</strong> Instead of sending reviews one by one and waiting, I submitted them as batch jobs that finish within hours at a lower price.</li>
+<li><strong>Prompt caching.</strong> Every request starts with the same 6,432-token codebook. With caching, the model reads it from a cache instead of paying full price for it every time. Across the full run, cached input made up the vast majority of tokens.</li>
+</ul>
+<p>The labeling run cost <strong>$3.50</strong> for 56,187 labeled reviews. The 50-review pilot cost under a cent, and the first report draft about 14 cents. All model costs together came to under $4.</p>
+<p>Before each paid run I wrote down the review count, estimated tokens and estimated cost, and only ran it once those were approved. Partly that's discipline. Mostly it's because a wrong setting at 56,187 reviews is expensive, while at 50 it's a lesson.</p>
+<h2>What the money didn't buy</h2>
+<p>Cheap labeling isn't the same as correct labeling. The model was about 88% accurate in my spot check, and I explain how I checked in a separate note. Nine reviews failed to label and were dropped. And a dataset of negative reviews only represents people who chose to write one.</p>
+<p>But the economics change what's possible. Reading 56,187 reviews in 29 languages by hand would take a team weeks. Here, the expensive part was the thinking: reading 300 reviews myself, writing the codebook, and deciding which questions the data could actually answer.</p>
+<hr><p class="meta">Numbers come from the <a href="../../projects/wardogs/">WARDOGS project</a> and its <a href="../../method/">method</a>. Data covers only people who wrote negative reviews.</p>
+</article>
+
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>

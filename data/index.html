@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data · Quit Signals</title>
+<meta name="description" content="Aggregated CSV downloads per report, and the changelog.">
+<meta property="og:title" content="Data · Quit Signals">
+<meta property="og:description" content="Aggregated CSV downloads per report, and the changelog.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../css/site.css">
+
+</head>
+<body data-root="../">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../projects/">Projects</a></li><li><a href="../method/">Method</a></li><li><a href="../notes/">Notes</a></li><li><a href="../data/" aria-current="page">Data</a></li><li><a href="../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<div class="prose">
+<h1>Data downloads</h1>
+<p class="lede">Aggregated counts behind each report's charts. No review text and no reviewer IDs, ever.</p>
+<p>Every file has an <code>event_window</code> column: <code>all_dates</code>, or <code>excl_…</code> with that report's review-spike window left out. See <a href="../method/">Method</a> for definitions.</p>
+<h2>WARDOGS · report of Nov 19, 2026</h2>
+<div class="table-wrap"><table class="text-table">
+<thead><tr><th>File</th><th class="wrap">What it holds</th></tr></thead>
+<tbody><tr><td><a href="../data/wardogs/2026-11-19/csv/reason_by_bucket.csv" download>reason_by_bucket.csv</a></td><td class="wrap">Reviews per reason × playtime group, main reason and any mention, with group totals</td></tr><tr><td><a href="../data/wardogs/2026-11-19/csv/reason_by_week.csv" download>reason_by_week.csv</a></td><td class="wrap">Reviews per main reason × week</td></tr><tr><td><a href="../data/wardogs/2026-11-19/csv/reason_by_language.csv" download>reason_by_language.csv</a></td><td class="wrap">Reviews per reason × review language, main reason and any mention, with language totals</td></tr><tr><td><a href="../data/wardogs/2026-11-19/csv/stop_rates.csv" download>stop_rates.csv</a></td><td class="wrap">Stopped and kept-playing counts and stop rate B per reason × playtime group</td></tr><tr><td><a href="../data/wardogs/2026-11-19/report.json">report.json</a></td><td class="wrap">Everything this report's charts read, in one file</td></tr></tbody></table></div>
+<h2 id="changelog">Changelog</h2>
+<ul><li><strong>Nov 19, 2026</strong> — WARDOGS: First report. Reviews collected Nov 19 (207,494 reviews, Sep 10 – Nov 19); 56,187 negative reviews labeled with codebook v1. <a href="../projects/wardogs/2026-11-19/">Read it</a>.</li></ul>
+</div>
+
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>

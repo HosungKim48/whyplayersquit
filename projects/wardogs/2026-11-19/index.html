@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WARDOGS report, Nov 19, 2026 · Quit Signals</title>
+<meta name="description" content="Which complaints in 56,187 negative WARDOGS Steam reviews came before players quit.">
+<meta property="og:title" content="WARDOGS report, Nov 19, 2026 · Quit Signals">
+<meta property="og:description" content="Which complaints in 56,187 negative WARDOGS Steam reviews came before players quit.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../../../css/site.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.16/dist/plot.umd.min.js"></script>
+<script src="../../../js/charts.js" defer></script>
+</head>
+<body data-root="../../../" data-json="data/wardogs/2026-11-19/report.json">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../../../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../../../projects/" aria-current="page">Projects</a></li><li><a href="../../../method/">Method</a></li><li><a href="../../../notes/">Notes</a></li><li><a href="../../../data/">Data</a></li><li><a href="../../../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<article class="prose center">
+<h1>WARDOGS: The complaints that don't make players leave — and the ones that do</h1>
+<p class="meta"><a href="../../../projects/wardogs/">WARDOGS project</a> · Report of Nov 19, 2026 · data through Nov 19, 2026<br>Independent analysis by Hosung Kim · Not affiliated with BULKHEAD · Based only on public Steam reviews</p>
+<figure class="art">
+<img src="../../../assets/wardogs-header.jpg" alt="WARDOGS official Steam header art" width="460" height="215">
+<figcaption>WARDOGS header art © BULKHEAD / Team17, used for identification. Independent · Not affiliated.</figcaption>
+</figure>
+<div class="stats">
+<div class="stat"><span class="label">Early Access</span><span class="value">Sep 10, 2026</span><span class="note">large-scale PvP tactical shooter</span></div>
+<div class="stat"><span class="label">Reviews collected</span><span class="value">207,494</span><span class="note">all Steam reviews to Nov 19</span></div>
+<div class="stat"><span class="label">Positive</span><span class="value">70.2%</span><span class="note">145,658 of 207,494</span></div>
+<div class="stat"><span class="label">Negative, labeled</span><span class="value">56,187</span><span class="note">29 languages</span></div>
+</div>
+<p>The most common complaints in WARDOGS' negative reviews, cheaters and balance, are not the ones that go with players leaving: reviewers who cite them mostly kept playing. The reasons that do go with quitting are quieter: the 175 ms ping cap, season progression wipes, and trust in bans.</p>
+<p>I analyzed 56,187 negative Steam reviews written from Sep 10 to Nov 19, 2026, and, for older reviews, whether the reviewer kept playing afterward.</p>
+<h2>1. Overview</h2>
+<ul>
+<li><strong>Cheaters and balance are loud but not decisive.</strong> For players with 10+ hours, those citing either as their main reason quit <em>less</em> often than their playtime group overall.</li>
+<li><strong>The ping cap is the strongest quit signal.</strong> Among 10–50h players whose main complaint was the cap, 70% stopped playing.</li>
+<li><strong>Ban trust matters for invested players.</strong> Among 10–50h players whose main complaint was bans or developer trust, 60% stopped.</li>
+<li><strong>Wipes return at every season start</strong>, and wipe complainers quit more often than average.</li>
+<li><strong>New players leave over pacing, not queues.</strong> Slow, travel-heavy play is the most common complaint among 0–2h quitters.</li>
+</ul>
+<p>BULKHEAD has since loosened the cap to 250 ms and added a catch-up mechanic (section 4).</p>
+<h2>2. When players quit</h2>
+<p>"Stop rate" here means: of reviewers who either <strong>stopped</strong> (under 1 hour played after the review, last played within 3 days of it) or <strong>kept playing</strong> (10+ hours after), the share who stopped. Only reviews at least 14 days old count.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Hours played at review</th>
+<th>Stop rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–2h</td>
+<td>54%</td>
+</tr>
+<tr>
+<td>2–10h</td>
+<td>41%</td>
+</tr>
+<tr>
+<td>10–50h</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>50–200h</td>
+<td>21%</td>
+</tr>
+<tr>
+<td>200h+</td>
+<td>8%</td>
+</tr>
+</tbody>
+</table></div>
+<p>Quitting falls steadily with playtime. Steam refunds games played under 2 hours within 14 days of purchase, so my interpretation is that many 0–2h "stoppers" refunded; the data can't confirm this.</p>
+<h2>3. Top reasons per bucket</h2>
+<p>The most common main reason in each group:</p>
+<div class="chart-block" data-chart="explorer">
+<h3>Reason explorer: why players leave, by hours played</h3>
+<p class="sub">Share of each playtime group's negative reviews, by reason. Switch between main reason and any mention, pick a language, or leave out the Oct 22–24 spike. Hover or tap a cell for counts.</p>
+<div class="controls"></div><p class="event-note"></p>
+<div class="chart"></div><p class="foot"></p></div>
+<ul>
+<li><strong>0–2h:</strong> servers &amp; access (31.5%), mostly launch queues.</li>
+<li><strong>2–10h:</strong> gameplay &amp; design (21.6%): long travel, waiting, dying unseen.</li>
+<li><strong>10–50h:</strong> grind &amp; gear gap (18.3%).</li>
+<li><strong>50–200h:</strong> cheaters (19.3%).</li>
+<li><strong>200h+:</strong> cheaters (20.4%), then balance, with dev trust &amp; bans rising.</li>
+</ul>
+<p>Common is not the same as decisive. The table below shows the stop rate among reviewers whose <strong>main</strong> reason is each row. * = fewer than 100 reviewers. Switch to “Any mention” to see the same pattern using main or secondary reasons.</p>
+<div class="chart-block" data-chart="quitsignal">
+<h3>Quit-signal table: stop rate by reason and hours played</h3>
+<p class="sub">Of reviewers who stopped or kept playing, the share who stopped. The top row is each group's average; orange cells are above it (more players stopped), blue cells below. Hover or tap a cell for counts.</p>
+<div class="controls"></div><p class="event-note"></p>
+<div class="legend"><span><i style="background:#AC4826"></i>Above group average (stops more)</span><span><i style="background:#2C5FB0"></i>Below group average</span><span><i class="hatch"></i>* Fewer than 100 reviewers</span></div>
+<div class="chart"></div>
+<p class="foot">Reviews at least 14 days old at collection (written Sep 10 – Nov 5). “Any mention” counts the main or secondary reason.</p></div>
+<p>What stands out:</p>
+<ul>
+<li><strong>New players (0–10h) quit over the experience itself.</strong> Gameplay &amp; design and grind run far above the group rate. Typical: <em>"Spawn far away, ride to the front, get sniped, wait for a revive that never comes, repeat."</em></li>
+<li><strong>Queue complaints did not go with quitting.</strong> Servers &amp; access has the lowest or near-lowest stop rate in every group.</li>
+<li><strong>Invested players (10h+) quit over the ping cap, wipes, and bans.</strong> All three sit above the group rate at 10–50h and 50–200h.</li>
+<li><strong>For 10h+ players, cheaters and balance are complaints, not exits.</strong> Both sit below the group rate. At 0–10h, cheaters run slightly above it (the 0–2h cell is small). One 200h+ player: <em>"Would be incredible if cheating weren't out of control; community servers are still fun with active reporting."</em></li>
+</ul>
+<h2>4. Timeline: Season 2, the ping cap, the ban wave, Season 3</h2>
+<div class="chart-block" data-chart="timeline">
+<h3>Negative reviews per week, by main reason</h3>
+<p class="sub">Click a numbered marker, or a button under the chart, to see what changed and one thing players said.</p>
+<div class="controls"></div><p class="event-note"></p>
+<div class="legend"></div>
+<div class="chart"></div>
+<div class="event-chips"></div><div class="event-panel" aria-live="polite"></div>
+<p class="foot">Weeks start on the date shown (UTC). The last bar covers 8 days (Nov 12–19). Quotes are short paraphrases, chosen to illustrate, not counted.</p></div>
+<ul>
+<li><strong>Oct 15 — Season 2 goes live.</strong> In its first week, wipes were the main reason in 1,120 negative reviews.</li>
+<li><strong>Oct 21–22 — the 175 ms ping cap.</strong> Announced on X on Oct 21, in effect Oct 22. That week, the cap was the main reason in a third of negative reviews.</li>
+<li><strong>Around Nov 6 — ban wave.</strong> BULKHEAD's Season 3 notes cite a ban wave of 185,000+ accounts (date per press reports).</li>
+<li><strong>Nov 12 — Season 3 goes live.</strong> The ping limit rose to 250 ms on official servers. Ping-cap complaints fell to 3% of negative reviews that week, while wipe complaints rose again.</li>
+</ul>
+<p><strong>What Season 2 did to 10–50h players.</strong> Their stop rate nearly doubled:</p>
+<ul>
+<li><strong>Before (Oct 1–14):</strong> 31.7%.</li>
+<li><strong>After (Oct 15–28):</strong> 60.6%.</li>
+<li><strong>After, excluding the Oct 22–24 review spike:</strong> 59.9%, so this is not just a three-day surge.</li>
+</ul>
+<p>Two paraphrases from this group:</p>
+<ul>
+<li><em>"Season 2 reset all my progress to zero with nothing to show; I don't support games that waste my time."</em></li>
+<li><em>"I was enjoying NA servers with good people, then suddenly got dragged out and locked away."</em></li>
+</ul>
+<p><strong>The cap acted as involuntary churn.</strong> Many of these players were cut off from the servers they played on rather than tired of the game. By definition, "stopped" reviewers had not played since shortly after their review as of data collection on Nov 19, a week after the limit rose. That doesn't mean they won't return, only that they hadn't yet.</p>
+<p><strong>Credit where due.</strong> Loosening the cap coincided with ping complaints nearly disappearing; BULKHEAD's notes tie the change to the ban wave and a review of regional data. Season 3 also added a catch-up mechanic. I can't yet measure either change's effect on quitting, since my quit analysis ends with reviews from Nov 05.</p>
+<h2>5. Three suggestions for the developer</h2>
+<p><strong>1. Shorten time-to-fun for new players.</strong></p>
+<ul>
+<li>New-player quitters describe travel, waiting, and dying to opponents they never saw.</li>
+<li>Likely levers: faster routes to the action, shorter respawn-to-fight time, a clearer first-hour loop.</li>
+<li>Queue fixes help sentiment, but queue complainers mostly stayed.</li>
+</ul>
+<p><strong>2. Protect 10–50h players at season resets.</strong></p>
+<ul>
+<li>This group has invested enough to be hurt by a wipe but not enough to shrug it off.</li>
+<li>Options: carry over part of the progress, add catch-up bonuses, publish reset rules well before a season starts.</li>
+<li>Check whether the Season 3 catch-up mechanic reaches this group specifically.</li>
+</ul>
+<p><strong>3. Announce policy changes on Steam, test regional impact first, and win back locked-out players.</strong></p>
+<ul>
+<li>The cap was announced on X a day before it applied; a Steam post reaches every owner.</li>
+<li>Before a region-sensitive change, estimate how many active players each region would lose.</li>
+<li>Tell players who stopped during the cap period about the 250 ms change.</li>
+<li>Make ban appeals visible and fast: among 50–200h players whose main complaint was bans or trust, 45% stopped.</li>
+</ul>
+<h2>6. Methods &amp; limits</h2>
+<ul>
+<li><strong>Data:</strong> 56,187 negative Steam reviews from Steam's public review API, Sep 10 – Nov 19, 2026.</li>
+<li><strong>Languages:</strong> all 29 present, analyzed together.</li>
+<li><strong>Labels:</strong> main and secondary reasons labeled by Claude Haiku 5.5 with a fixed codebook.</li>
+<li><strong>Label accuracy:</strong> about 88% correct in a small random spot check, so percentages carry some error.</li>
+<li><strong>Quit status:</strong> 47,875 reviews written Sep 10 – Nov 05 were old enough to judge; Season 3 reviews are not included.</li>
+<li><strong>Two stop-rate measures:</strong> the main text uses stopped ÷ (stopped + kept playing). The alternative, stopped ÷ all judged reviewers, also counts players in between and gives lower figures with the same pattern; on it, the 10–50h rate more than doubled after Season 2, to 43.6%.</li>
+<li><strong>Event window:</strong> the Oct 22–24 review spike was partly coordinated; excluding it does not change the main findings (try “Exclude Oct 22–24” on any chart).</li>
+<li><strong>Correlation, not causation.</strong> A reason's stop rate shows association only.</li>
+<li><strong>Who is represented:</strong> only people who wrote negative reviews.</li>
+<li><strong>Quotes</strong> are short paraphrases chosen to illustrate findings; they are not counted.</li>
+</ul>
+<hr />
+<p><em>Questions or feedback: <a href="mailto:hosun9k@gmail.com">hosun9k@gmail.com</a>.</em></p>
+</article>
+<script type="application/json" id="qs-events">[{"date": "2026-10-15", "short": "Season 2", "label": "Oct 15", "title": "Oct 15 — Season 2 goes live", "what": "The new season reset levels, unlocks and money.", "stat": "Wipes were the main reason in {s:progression_wipe} negative reviews that week, up from {s:progression_wipe:-1} the week before.", "quote": "Spent 30 hours leveling recon, then Season 2 wiped it.", "who": "Stopped, 10–50h, Russian"}, {"date": "2026-10-22", "short": "Ping cap", "label": "Oct 21–22", "title": "Oct 21–22 — the 175 ms ping cap", "what": "Announced on X on Oct 21 and in effect from Oct 22: players with more than 175 ms ping were kicked from servers.", "stat": "The cap was the main reason in {s:ping_cap_region_access} of {t} negative reviews that week ({p:ping_cap_region_access}).", "quote": "Asian servers get DDoSed, foreign servers kick us for ping — the game is no longer playable for us.", "who": "Stopped, 10h+, Simplified Chinese"}, {"date": "2026-11-06", "short": "Ban wave", "label": "~Nov 6", "title": "Around Nov 6 — ban wave", "what": "BULKHEAD's Season 3 notes cite a ban wave of 185,000+ accounts (date per press reports).", "stat": "Dev trust & bans was the main reason in {c:developer_trust_enforcement} negative reviews that week, vs {c:developer_trust_enforcement:-1} the week before.", "quote": "Played 57 hours, falsely banned for cheating; support stalled for a month and told me to stop emailing.", "who": "Stopped, 50h+, English"}, {"date": "2026-11-12", "short": "Season 3", "label": "Nov 12", "title": "Nov 12 — Season 3 + 250 ms", "what": "Season 3 went live and the ping limit rose to 250 ms on all official servers. Another season reset.", "stat": "Ping-cap complaints fell to {p:ping_cap_region_access} of negative reviews; wipes rose to {s:progression_wipe} ({p:progression_wipe}).", "quote": "100 hours to reach top gear, then a wipe? I won't sink another 100 hours to lose it again.", "who": "Season 3 week, English"}]</script>
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../../../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>

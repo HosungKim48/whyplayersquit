@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method · Quit Signals</title>
+<meta name="description" content="How Quit Signals collects, filters, labels and checks Steam reviews.">
+<meta property="og:title" content="Method · Quit Signals">
+<meta property="og:description" content="How Quit Signals collects, filters, labels and checks Steam reviews.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../css/site.css">
+
+</head>
+<body data-root="../">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../projects/">Projects</a></li><li><a href="../method/" aria-current="page">Method</a></li><li><a href="../notes/">Notes</a></li><li><a href="../data/">Data</a></li><li><a href="../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<div class="prose">
+<h1>How the numbers are made</h1>
+<p class="lede">Code does the cheap work first; a model only sees what survives. Every count below comes from the WARDOGS run of Nov 19, 2026.</p>
+</div>
+
+<div class="pipeline" role="list">
+<div class="step" role="listitem"><span class="label">Reviews collected</span><b>207,494</b><div class="how">Steam's public review API, all languages, Sep 10 – Nov 19, 2026</div><div class="bar-track"><i style="width:100%"></i></div></div>
+<div class="step" role="listitem"><span class="label">Negative</span><b>61,836</b><div class="how">Not recommended</div><div class="bar-track"><i style="width:29.8%"></i></div></div>
+<div class="step" role="listitem"><span class="label">After length filter</span><b>56,196</b><div class="how">20+ characters; 8+ for Chinese, Japanese, Korean</div><div class="bar-track"><i style="width:27.1%"></i></div></div>
+<div class="step" role="listitem"><span class="label">Labeled</span><b>56,187</b><div class="how">Claude Haiku 5.5 with the codebook; 9 failed and were dropped</div><div class="bar-track"><i style="width:27.1%"></i></div></div>
+</div>
+<p class="meta">Of the labeled reviews, 47,875 (written Sep 10 – Nov 05) were at least 14 days old at collection, old enough to judge whether the reviewer kept playing.</p>
+
+<div class="prose">
+<h2>How much to trust the labels</h2>
+<div class="stats">
+<div class="stat"><span class="value">78%</span><span class="note">pilot: main reason matched my hand labels (n=50)</span></div>
+<div class="stat"><span class="value">88%</span><span class="note">pilot: matched on main or secondary reason</span></div>
+<div class="stat"><span class="value">~88%</span><span class="note">random spot check judged correct (44 of 50)</span></div>
+<div class="stat"><span class="value">$3.50</span><span class="note">cost to label all 56,187 reviews</span></div>
+</div>
+<ul>
+<li><strong>Codebook first.</strong> I hand-read 300 negative reviews across languages, periods and playtime groups, then wrote 12 categories with include/exclude and tie-break rules. <a href="../method/codebook/">Read the codebook</a>.</li>
+<li><strong>Pilot.</strong> 50 reviews from that hand-read set, at least four per category, labeled by the model and compared with my labels.</li>
+<li><strong>Full run.</strong> Claude Haiku 5.5 through the Message Batches API, with the codebook cached and JSON output. Each review is read in its original language.</li>
+<li><strong>Spot check.</strong> 50 random labeled reviews (none from the hand-read set), judged by me. Percentages on this site carry that error; I treat only large gaps as findings.</li>
+<li><strong>Cleaning rules.</strong> A secondary reason of “unclear / other”, or one equal to the main reason, counts as none.</li>
+<li><strong>Report text.</strong> The first draft was written by Claude Sonnet 5.5 from the analysis tables only (no raw reviews), then edited by me. All numbers are computed by code.</li>
+</ul>
+
+<h2>Did the reviewer keep playing?</h2>
+<p>Steam reports hours played at the time of the review and hours played as of collection (Nov 19, 2026). The difference sorts each reviewer into one group:</p>
+<div class="table-wrap"><table class="text-table">
+<thead><tr><th>Group</th><th class="wrap">Rule</th></tr></thead>
+<tbody>
+<tr><td><strong>Stopped</strong></td><td class="wrap">Under 1 hour played after the review, and last played within 3 days of it</td></tr>
+<tr><td><strong>Kept playing</strong></td><td class="wrap">10+ hours played after the review</td></tr>
+<tr><td>Kept playing a little</td><td class="wrap">1–10 hours after; not used in stop rates</td></tr>
+<tr><td>Unclear</td><td class="wrap">Under 1 hour after, but last played more than 3 days after the review</td></tr>
+<tr><td>Too recent</td><td class="wrap">Review less than 14 days old at collection; not judged (the 14-day rule)</td></tr>
+</tbody></table></div>
+<p>Among judged reviews, 9,744 reviewers stopped and 23,568 kept playing.</p>
+
+<h3>Two stop-rate definitions</h3>
+<ul>
+<li><strong>Stop rate B (used in the reports):</strong> stopped ÷ (stopped + kept playing). For 10–50h reviewers: 2,957 of 8,440, or 35%.</li>
+<li><strong>Stop rate A:</strong> stopped ÷ all judged reviewers, including “a little”, “unclear” and so on. For 10–50h reviewers: 2,957 of 12,582, or 23.5%. Lower numbers, same pattern.</li>
+</ul>
+<p><strong>Lift</strong> (home page chart) compares a reason's stop rate B with what you would expect from its reviewers' playtime groups alone. Comparing within playtime matters because stopping falls steeply with hours played (54% at 0–2h, 8% at 200h+).</p>
+
+<h2>Events and the Oct 22–24 spike</h2>
+<p>Event dates come from official Steam posts, except where press is noted: Season 2 live Oct 15; 175 ms ping cap announced on X Oct 21 (press), in effect Oct 22; ban wave of 185,000+ accounts around Nov 6 (press); Season 3 live Nov 12 with the ping limit raised to 250 ms. The Oct 22–24 review spike was a real reaction to the cap plus a partly coordinated pile-on, so every chart can leave those three days out.</p>
+
+<h2>Limits</h2>
+<ul>
+<li>Represents only people who wrote negative reviews, not all players.</li>
+<li>Correlation, not causation. A reason's stop rate shows association only.</li>
+<li>“Stopped” is a snapshot as of Nov 19; some players may return.</li>
+<li>Older reviews had more time to build up playtime afterward, so “kept playing” is slightly inflated for early reviews.</li>
+<li>Quotes are short paraphrases chosen to illustrate findings. No reviewer IDs or profiles are ever published.</li>
+</ul>
+</div>
+
+
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>

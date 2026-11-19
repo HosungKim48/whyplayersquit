@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why the loudest complaints mislead · Quit Signals</title>
+<meta name="description" content="The most common complaint in WARDOGS reviews was cheaters. The complaint that most often came before players actually left was something else.">
+<meta property="og:title" content="Why the loudest complaints mislead · Quit Signals">
+<meta property="og:description" content="The most common complaint in WARDOGS reviews was cheaters. The complaint that most often came before players actually left was something else.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../../css/site.css">
+
+</head>
+<body data-root="../../">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../../projects/">Projects</a></li><li><a href="../../method/">Method</a></li><li><a href="../../notes/" aria-current="page">Notes</a></li><li><a href="../../data/">Data</a></li><li><a href="../../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<article class="prose center">
+<h1>Why the loudest complaints mislead</h1>
+<p class="meta"><a href="../../notes/">Notes</a> · Nov 19, 2026 · Hosung Kim</p>
+<p class="lede">The most common complaint in WARDOGS reviews was cheaters. The complaint that most often came before players actually left was something else.</p>
+<p>When I started reading WARDOGS reviews, I thought the job was counting. Find the most common complaint, tell the studio to fix it, done. Cheaters looked like the obvious answer: they are the main reason in 15.6% of the 56,187 negative reviews I labeled, and they come up as a main or secondary reason in 26.3%.</p>
+<p>Then I added one more column: did the reviewer keep playing?</p>
+<h2>Adding behavior to opinions</h2>
+<p>Steam records how many hours a player had when they wrote a review and how many they have now. That gap turns a review from an opinion into something closer to behavior. I call a reviewer <strong>stopped</strong> if they played less than an hour after the review and last played within three days of it. I call them <strong>kept playing</strong> if they put in 10 or more hours afterward. Reviews younger than 14 days are left out, because those players have not had time to show either pattern.</p>
+<p>For each complaint, the question becomes: among reviewers whose main complaint was this, what share stopped?</p>
+<h2>The trap: playtime hides everything</h2>
+<p>My first comparison was wrong. Stop rates fall steeply with playtime: 54% of judged 0–2h reviewers stopped, but only 8% of 200h+ reviewers. Complaints also change with playtime. New players write about queues and crashes; veterans write about cheaters and balance. So a raw comparison mostly says "veterans quit less," which I already knew.</p>
+<p>The fix is to compare each complaint with other reviewers at the same playtime. That is why every chart on this site splits players into five playtime groups, and why the home chart measures "lift": a reason's stop rate minus what you would expect from its reviewers' playtime alone.</p>
+<h2>What changed when I did that</h2>
+<p>Among 10–50h players, 35% stopped overall. Those whose main complaint was:</p>
+<ul>
+<li>the 175 ms ping cap: <strong>70%</strong> stopped</li>
+<li>bans or developer trust: <strong>60%</strong></li>
+<li>progression wipes: <strong>47%</strong></li>
+<li>cheaters: <strong>27%</strong></li>
+<li>balance: <strong>23%</strong></li>
+</ul>
+<p>The two loudest complaints sat <em>below</em> their group. The ping cap, the main reason in only 9.5% of negative reviews, was the strongest quit signal I found.</p>
+<p>The same pattern shows up with new players. Servers &amp; access is the main reason in 31.5% of 0–2h negative reviews, mostly launch-day queues. But only 19% of those reviewers stopped, against 54% for the group. People angry about the queue mostly came back once they got in. The 0–2h players who left described the game itself: slow, travel-heavy play. Among them, gameplay &amp; design complainers stopped 88% of the time.</p>
+<h2>Loud versus decisive</h2>
+<p>My reading is that there are two kinds of complaints. <strong>Loud</strong> complaints are frustrations players tolerate: they write about them, often at length, and keep playing. <strong>Decisive</strong> complaints are the ones that come right before people leave. A studio that ranks issues by volume will spend its effort on the loud ones.</p>
+<p>This doesn't mean cheaters don't matter. Cheating can drive away people who never write a review, and that is invisible here. It means that among people who did write one, cheating was a complaint rather than an exit.</p>
+<h2>What I can't claim</h2>
+<p>This is correlation, not causation. The ping cap players may have had other reasons to leave. The data only covers people who wrote negative reviews, who are not a random sample of players. The labels come from a language model that was about 88% accurate in my spot check, so I trust the large gaps (70% vs 35%) more than the small ones. And "stopped" is a snapshot: some of those players may come back now that the cap is 250 ms.</p>
+<p>Still, one extra column changed the answer, and I think it's the column most review dashboards are missing.</p>
+<hr><p class="meta">Numbers come from the <a href="../../projects/wardogs/">WARDOGS project</a> and its <a href="../../method/">method</a>. Data covers only people who wrote negative reviews.</p>
+</article>
+
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>

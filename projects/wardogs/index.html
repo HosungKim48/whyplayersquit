@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WARDOGS · Quit Signals</title>
+<meta name="description" content="Quit Signals reports on WARDOGS: which complaints come before players quit.">
+<meta property="og:title" content="WARDOGS · Quit Signals">
+<meta property="og:description" content="Quit Signals reports on WARDOGS: which complaints come before players quit.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%230B0E11' stroke='%23F5A524' stroke-width='2'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23F5A524'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0E11">
+<link rel="stylesheet" href="../../css/site.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.16/dist/plot.umd.min.js"></script>
+<script src="../../js/charts.js" defer></script>
+</head>
+<body data-root="../../" data-json="data/wardogs/2026-11-19/report.json">
+<header class="site-head"><div class="inner">
+<a class="brand" href="../../"><span class="brand-mark" aria-hidden="true"></span>Quit Signals</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="../../projects/" aria-current="page">Projects</a></li><li><a href="../../method/">Method</a></li><li><a href="../../notes/">Notes</a></li><li><a href="../../data/">Data</a></li><li><a href="../../about/">About</a></li></ul></nav>
+</div></header>
+<main>
+<div class="prose center">
+<h1>WARDOGS</h1>
+<p class="meta">BULKHEAD / Team17 · Steam app 1867240 · Early Access since Sep 10, 2026 · tracked since Nov 19, 2026</p>
+<figure class="art">
+<img src="../../assets/wardogs-header.jpg" alt="WARDOGS official Steam header art" width="460" height="215">
+<figcaption>WARDOGS header art © BULKHEAD / Team17, used for identification. Independent · Not affiliated.</figcaption>
+</figure>
+<p class="lede">We track every negative Steam review of WARDOGS and, on each run, publish a report on which complaints come before players quit. Every report uses the same <a href="../../method/">method</a>, so runs can be compared.</p>
+<div class="stats">
+<div class="stat"><span class="label">Early Access</span><span class="value">Sep 10, 2026</span><span class="note">large-scale PvP tactical shooter</span></div>
+<div class="stat"><span class="label">Reviews collected</span><span class="value">207,494</span><span class="note">all Steam reviews to Nov 19</span></div>
+<div class="stat"><span class="label">Positive</span><span class="value">70.2%</span><span class="note">145,658 of 207,494</span></div>
+<div class="stat"><span class="label">Negative, labeled</span><span class="value">56,187</span><span class="note">29 languages</span></div>
+</div>
+</div>
+<div class="chart-block" data-chart="signature">
+<h2>Loud vs decisive</h2>
+<p class="sub">From the latest report. One dot per complaint. Further right means more common as the main reason. Higher means reviewers with that main complaint stopped playing more often than others with similar playtime. Dot size is the number of reviewers whose quit status could be judged.</p>
+<div class="controls"></div><p class="event-note"></p>
+<div class="chart"></div>
+<p class="foot">Stop rate = stopped ÷ (stopped + kept playing), among reviews at least 14 days old (written Sep 10 – Nov 5). Lift = a reason's stop rate minus the rate expected from its reviewers' playtime groups. Faded dots: fewer than 100 reviewers. “Unclear / other” is not shown. Hover or tap a dot for counts. <a href="../../method/">How this is measured</a>.</p>
+</div>
+<div class="prose center">
+<h2>Latest report</h2>
+<div class="panel">
+<a class="report-card single" href="../../projects/wardogs/2026-11-19/">
+<div>
+<h3>The complaints that don't make players leave — and the ones that do</h3>
+<p class="meta">Report of Nov 19, 2026 · data through Nov 19, 2026</p>
+<p>Cheaters and balance are the loudest complaints but not the ones that come before quitting. Among 10–50h players whose main complaint was the 175 ms ping cap, 70% stopped playing, against 35% for their playtime group.</p>
+<span class="go">Read the report</span>
+</div>
+</a>
+</div>
+<h2>All reports</h2>
+<div class="table-wrap"><table class="text-table reports-table">
+<thead><tr><th>Report</th><th class="wrap">Headline</th><th>Reviews labeled</th><th>Data through</th></tr></thead>
+<tbody><tr><td><a href="../../projects/wardogs/2026-11-19/">Nov 19, 2026</a></td><td class="wrap">The complaints that don't make players leave — and the ones that do</td><td class="num">56,187</td><td class="num">Nov 19, 2026</td></tr></tbody></table></div>
+<p class="meta">Older reports stay online unchanged; each one reads its own data snapshot.</p>
+</div>
+
+</main>
+<footer class="site-foot"><div class="inner">
+<span>Independent · Not affiliated with any studio · Based only on public Steam reviews.</span>
+<span>Last updated Nov 19, 2026 · <a href="../../data/#changelog">Changelog</a></span>
+</div></footer>
+</body>
+</html>
