@@ -1,4 +1,4 @@
-/* Quit Signals charts. Reads the report snapshot named in <body data-json> (aggregates from scripts/export_site_data.py).
+/* whyplayersquit charts. Reads the report snapshot named in <body data-json> (aggregates from scripts/export_site_data.py).
    Every number shown is read from that file; nothing is typed in by hand except event dates/quotes. */
 (async function () {
   const blocks = document.querySelectorAll("[data-chart]");
