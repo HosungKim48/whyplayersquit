@@ -36,7 +36,8 @@
   const state = { win: "all" };
   // Event-window label, e.g. "Oct 22–24", from the snapshot (analyze.py EVENT).
   const dayFmt = (s) => d3.utcFormat("%b %-d")(new Date(s + "T00:00:00Z"));
-  const EV = (({ first, last }) => first.slice(0, 7) === last.slice(0, 7) ? `${dayFmt(first)}–${last.slice(8).replace(/^0/, "")}` : `${dayFmt(first)} – ${dayFmt(last)}`)(D.meta.event_window);
+  // Games without a review-spike window (event_window null) get no exclude toggle.
+  const EV = D.meta.event_window && (({ first, last }) => first.slice(0, 7) === last.slice(0, 7) ? `${dayFmt(first)}–${last.slice(8).replace(/^0/, "")}` : `${dayFmt(first)} – ${dayFmt(last)}`)(D.meta.event_window);
   const renderers = [];
   const win = () => D.windows[state.win];
   const sign = (v) => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(1);
@@ -62,6 +63,7 @@
     return g;
   }
   function eventToggle() {
+    if (!EV) return document.createTextNode("");
     const l = document.createElement("label");
     l.innerHTML = `<input type="checkbox" class="ev-toggle"> Exclude ${EV} review spike`;
     const cb = l.querySelector("input");
@@ -137,7 +139,7 @@
       const SHORT = { cheaters: "Cheaters", balance: "Balance", grind_gear_gap: "Grind", ping_cap_region_access: "Ping cap",
         progression_wipe: "Wipe", gameplay_design: "Gameplay", developer_trust_enforcement: "Dev trust", technical_client: "Technical",
         servers_access: "Servers", social_teammates: "Social", price_value: "Price" };
-      const text = (d) => `${narrow ? SHORT[d.code] : d.label} ${sign(d.lift)}`;
+      const text = (d) => `${narrow ? (SHORT[d.code] || d.label) : d.label} ${sign(d.lift)}`;
       // Choose each label's side: estimate its width in x-units and avoid dots it would run into.
       const pxPerUnit = (w - 60) / (maxShare * 1.08);
       const charPx = narrow ? 6.2 : 6.8;
@@ -240,7 +242,8 @@
       const base = Object.fromEntries(B.map((b) => [b, st[b].stopped / st[b].n * 100]));
       let h = `<div class="table-wrap"><table class="qs-table"><thead><tr><th>${basis === "primary" ? "Main reason" : "Reason mentioned"}</th>${B.map((b) => `<th>${BL(b)}</th>`).join("")}</tr></thead><tbody>`;
       h += `<tr class="base"><td>All reviewers in group</td>${B.map((b) => `<td class="cell" tabindex="0">${Math.round(base[b])}%<span class="tip">All ${BL(b)} reviewers: ${fmt(st[b].stopped)} of ${fmt(st[b].n)} stopped (${base[b].toFixed(1)}%). This is the group average.</span></td>`).join("")}</tr>`;
-      ORDER.forEach((code) => {
+      // Known codes in the fixed order; a game-specific codebook's extra codes go after them.
+      [...ORDER.filter((c) => D.codes.includes(c)), ...D.codes.filter((c) => !ORDER.includes(c))].forEach((code) => {
         h += `<tr><td>${L[code]}</td>`;
         B.forEach((b) => {
           const x = st[b][basis][code];

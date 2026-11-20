@@ -1,0 +1,697 @@
+event_window,language,reason_code,reason,reviews_primary,reviews_mentions,language_reviews
+all_dates,english,cheaters,Cheaters,3155,5082,28558
+all_dates,english,balance,Balance,4834,8369,28558
+all_dates,english,grind_gear_gap,Grind & gear gap,4379,7824,28558
+all_dates,english,ping_cap_region_access,Ping cap / region,1751,2204,28558
+all_dates,english,progression_wipe,Progression wipe,3087,5454,28558
+all_dates,english,gameplay_design,Gameplay & design,2939,5727,28558
+all_dates,english,developer_trust_enforcement,Dev trust & bans,1660,3882,28558
+all_dates,english,technical_client,Technical (client),2147,3052,28558
+all_dates,english,servers_access,Servers & access,1486,2326,28558
+all_dates,english,social_teammates,Social & teammates,886,2460,28558
+all_dates,english,price_value,Price & value,390,1412,28558
+all_dates,english,unclear_other,Unclear / other,1844,1844,28558
+all_dates,schinese,cheaters,Cheaters,3150,5900,14131
+all_dates,schinese,balance,Balance,604,1441,14131
+all_dates,schinese,grind_gear_gap,Grind & gear gap,1027,1884,14131
+all_dates,schinese,ping_cap_region_access,Ping cap / region,2622,3358,14131
+all_dates,schinese,progression_wipe,Progression wipe,634,1194,14131
+all_dates,schinese,gameplay_design,Gameplay & design,402,888,14131
+all_dates,schinese,developer_trust_enforcement,Dev trust & bans,1813,3687,14131
+all_dates,schinese,technical_client,Technical (client),781,1223,14131
+all_dates,schinese,servers_access,Servers & access,1133,1856,14131
+all_dates,schinese,social_teammates,Social & teammates,144,398,14131
+all_dates,schinese,price_value,Price & value,98,382,14131
+all_dates,schinese,unclear_other,Unclear / other,1723,1723,14131
+all_dates,russian,cheaters,Cheaters,367,557,3270
+all_dates,russian,balance,Balance,457,787,3270
+all_dates,russian,grind_gear_gap,Grind & gear gap,301,632,3270
+all_dates,russian,ping_cap_region_access,Ping cap / region,152,202,3270
+all_dates,russian,progression_wipe,Progression wipe,329,523,3270
+all_dates,russian,gameplay_design,Gameplay & design,379,690,3270
+all_dates,russian,developer_trust_enforcement,Dev trust & bans,123,335,3270
+all_dates,russian,technical_client,Technical (client),293,500,3270
+all_dates,russian,servers_access,Servers & access,409,521,3270
+all_dates,russian,social_teammates,Social & teammates,53,157,3270
+all_dates,russian,price_value,Price & value,43,172,3270
+all_dates,russian,unclear_other,Unclear / other,364,364,3270
+all_dates,german,cheaters,Cheaters,315,421,2011
+all_dates,german,balance,Balance,268,495,2011
+all_dates,german,grind_gear_gap,Grind & gear gap,321,560,2011
+all_dates,german,ping_cap_region_access,Ping cap / region,24,54,2011
+all_dates,german,progression_wipe,Progression wipe,268,439,2011
+all_dates,german,gameplay_design,Gameplay & design,220,394,2011
+all_dates,german,developer_trust_enforcement,Dev trust & bans,61,177,2011
+all_dates,german,technical_client,Technical (client),171,239,2011
+all_dates,german,servers_access,Servers & access,138,192,2011
+all_dates,german,social_teammates,Social & teammates,48,140,2011
+all_dates,german,price_value,Price & value,27,104,2011
+all_dates,german,unclear_other,Unclear / other,150,150,2011
+all_dates,koreana,cheaters,Cheaters,548,887,1716
+all_dates,koreana,balance,Balance,101,185,1716
+all_dates,koreana,grind_gear_gap,Grind & gear gap,44,88,1716
+all_dates,koreana,ping_cap_region_access,Ping cap / region,398,541,1716
+all_dates,koreana,progression_wipe,Progression wipe,39,84,1716
+all_dates,koreana,gameplay_design,Gameplay & design,71,134,1716
+all_dates,koreana,developer_trust_enforcement,Dev trust & bans,80,258,1716
+all_dates,koreana,technical_client,Technical (client),48,74,1716
+all_dates,koreana,servers_access,Servers & access,155,319,1716
+all_dates,koreana,social_teammates,Social & teammates,27,67,1716
+all_dates,koreana,price_value,Price & value,23,57,1716
+all_dates,koreana,unclear_other,Unclear / other,182,182,1716
+all_dates,tchinese,cheaters,Cheaters,352,572,1093
+all_dates,tchinese,balance,Balance,47,101,1093
+all_dates,tchinese,grind_gear_gap,Grind & gear gap,75,147,1093
+all_dates,tchinese,ping_cap_region_access,Ping cap / region,192,245,1093
+all_dates,tchinese,progression_wipe,Progression wipe,64,103,1093
+all_dates,tchinese,gameplay_design,Gameplay & design,42,87,1093
+all_dates,tchinese,developer_trust_enforcement,Dev trust & bans,84,168,1093
+all_dates,tchinese,technical_client,Technical (client),49,84,1093
+all_dates,tchinese,servers_access,Servers & access,89,143,1093
+all_dates,tchinese,social_teammates,Social & teammates,16,42,1093
+all_dates,tchinese,price_value,Price & value,5,26,1093
+all_dates,tchinese,unclear_other,Unclear / other,78,78,1093
+all_dates,brazilian,cheaters,Cheaters,132,199,980
+all_dates,brazilian,balance,Balance,180,292,980
+all_dates,brazilian,grind_gear_gap,Grind & gear gap,104,200,980
+all_dates,brazilian,ping_cap_region_access,Ping cap / region,13,15,980
+all_dates,brazilian,progression_wipe,Progression wipe,109,159,980
+all_dates,brazilian,gameplay_design,Gameplay & design,80,158,980
+all_dates,brazilian,developer_trust_enforcement,Dev trust & bans,80,134,980
+all_dates,brazilian,technical_client,Technical (client),116,166,980
+all_dates,brazilian,servers_access,Servers & access,66,92,980
+all_dates,brazilian,social_teammates,Social & teammates,21,55,980
+all_dates,brazilian,price_value,Price & value,18,56,980
+all_dates,brazilian,unclear_other,Unclear / other,61,61,980
+all_dates,french,cheaters,Cheaters,122,171,909
+all_dates,french,balance,Balance,156,293,909
+all_dates,french,grind_gear_gap,Grind & gear gap,164,268,909
+all_dates,french,ping_cap_region_access,Ping cap / region,6,11,909
+all_dates,french,progression_wipe,Progression wipe,105,165,909
+all_dates,french,gameplay_design,Gameplay & design,104,206,909
+all_dates,french,developer_trust_enforcement,Dev trust & bans,27,79,909
+all_dates,french,technical_client,Technical (client),86,126,909
+all_dates,french,servers_access,Servers & access,50,75,909
+all_dates,french,social_teammates,Social & teammates,26,71,909
+all_dates,french,price_value,Price & value,20,61,909
+all_dates,french,unclear_other,Unclear / other,43,43,909
+all_dates,japanese,cheaters,Cheaters,119,252,583
+all_dates,japanese,balance,Balance,65,128,583
+all_dates,japanese,grind_gear_gap,Grind & gear gap,66,114,583
+all_dates,japanese,ping_cap_region_access,Ping cap / region,105,136,583
+all_dates,japanese,progression_wipe,Progression wipe,29,50,583
+all_dates,japanese,gameplay_design,Gameplay & design,74,140,583
+all_dates,japanese,developer_trust_enforcement,Dev trust & bans,17,36,583
+all_dates,japanese,technical_client,Technical (client),26,39,583
+all_dates,japanese,servers_access,Servers & access,31,63,583
+all_dates,japanese,social_teammates,Social & teammates,19,45,583
+all_dates,japanese,price_value,Price & value,4,13,583
+all_dates,japanese,unclear_other,Unclear / other,28,28,583
+all_dates,turkish,cheaters,Cheaters,77,105,577
+all_dates,turkish,balance,Balance,75,125,577
+all_dates,turkish,grind_gear_gap,Grind & gear gap,41,79,577
+all_dates,turkish,ping_cap_region_access,Ping cap / region,5,7,577
+all_dates,turkish,progression_wipe,Progression wipe,61,78,577
+all_dates,turkish,gameplay_design,Gameplay & design,58,105,577
+all_dates,turkish,developer_trust_enforcement,Dev trust & bans,38,71,577
+all_dates,turkish,technical_client,Technical (client),60,81,577
+all_dates,turkish,servers_access,Servers & access,61,69,577
+all_dates,turkish,social_teammates,Social & teammates,9,24,577
+all_dates,turkish,price_value,Price & value,13,52,577
+all_dates,turkish,unclear_other,Unclear / other,79,79,577
+all_dates,polish,cheaters,Cheaters,48,75,492
+all_dates,polish,balance,Balance,78,135,492
+all_dates,polish,grind_gear_gap,Grind & gear gap,76,128,492
+all_dates,polish,ping_cap_region_access,Ping cap / region,3,6,492
+all_dates,polish,progression_wipe,Progression wipe,63,97,492
+all_dates,polish,gameplay_design,Gameplay & design,48,100,492
+all_dates,polish,developer_trust_enforcement,Dev trust & bans,19,49,492
+all_dates,polish,technical_client,Technical (client),53,70,492
+all_dates,polish,servers_access,Servers & access,52,62,492
+all_dates,polish,social_teammates,Social & teammates,8,26,492
+all_dates,polish,price_value,Price & value,8,28,492
+all_dates,polish,unclear_other,Unclear / other,36,36,492
+all_dates,spanish,cheaters,Cheaters,64,99,457
+all_dates,spanish,balance,Balance,63,111,457
+all_dates,spanish,grind_gear_gap,Grind & gear gap,40,76,457
+all_dates,spanish,ping_cap_region_access,Ping cap / region,11,13,457
+all_dates,spanish,progression_wipe,Progression wipe,56,85,457
+all_dates,spanish,gameplay_design,Gameplay & design,56,92,457
+all_dates,spanish,developer_trust_enforcement,Dev trust & bans,19,48,457
+all_dates,spanish,technical_client,Technical (client),47,72,457
+all_dates,spanish,servers_access,Servers & access,44,63,457
+all_dates,spanish,social_teammates,Social & teammates,11,34,457
+all_dates,spanish,price_value,Price & value,13,27,457
+all_dates,spanish,unclear_other,Unclear / other,33,33,457
+all_dates,thai,cheaters,Cheaters,129,205,374
+all_dates,thai,balance,Balance,6,17,374
+all_dates,thai,grind_gear_gap,Grind & gear gap,17,31,374
+all_dates,thai,ping_cap_region_access,Ping cap / region,25,36,374
+all_dates,thai,progression_wipe,Progression wipe,4,12,374
+all_dates,thai,gameplay_design,Gameplay & design,10,22,374
+all_dates,thai,developer_trust_enforcement,Dev trust & bans,51,101,374
+all_dates,thai,technical_client,Technical (client),10,20,374
+all_dates,thai,servers_access,Servers & access,89,118,374
+all_dates,thai,social_teammates,Social & teammates,2,10,374
+all_dates,thai,price_value,Price & value,7,26,374
+all_dates,thai,unclear_other,Unclear / other,24,24,374
+all_dates,ukrainian,cheaters,Cheaters,37,54,312
+all_dates,ukrainian,balance,Balance,53,96,312
+all_dates,ukrainian,grind_gear_gap,Grind & gear gap,49,85,312
+all_dates,ukrainian,ping_cap_region_access,Ping cap / region,3,5,312
+all_dates,ukrainian,progression_wipe,Progression wipe,34,49,312
+all_dates,ukrainian,gameplay_design,Gameplay & design,26,61,312
+all_dates,ukrainian,developer_trust_enforcement,Dev trust & bans,12,19,312
+all_dates,ukrainian,technical_client,Technical (client),27,43,312
+all_dates,ukrainian,servers_access,Servers & access,31,41,312
+all_dates,ukrainian,social_teammates,Social & teammates,3,11,312
+all_dates,ukrainian,price_value,Price & value,3,13,312
+all_dates,ukrainian,unclear_other,Unclear / other,34,34,312
+all_dates,czech,cheaters,Cheaters,30,41,217
+all_dates,czech,balance,Balance,30,55,217
+all_dates,czech,grind_gear_gap,Grind & gear gap,27,49,217
+all_dates,czech,ping_cap_region_access,Ping cap / region,0,5,217
+all_dates,czech,progression_wipe,Progression wipe,33,45,217
+all_dates,czech,gameplay_design,Gameplay & design,25,47,217
+all_dates,czech,developer_trust_enforcement,Dev trust & bans,7,21,217
+all_dates,czech,technical_client,Technical (client),22,27,217
+all_dates,czech,servers_access,Servers & access,13,18,217
+all_dates,czech,social_teammates,Social & teammates,1,9,217
+all_dates,czech,price_value,Price & value,5,13,217
+all_dates,czech,unclear_other,Unclear / other,24,24,217
+all_dates,italian,cheaters,Cheaters,21,35,140
+all_dates,italian,balance,Balance,15,35,140
+all_dates,italian,grind_gear_gap,Grind & gear gap,21,33,140
+all_dates,italian,ping_cap_region_access,Ping cap / region,0,0,140
+all_dates,italian,progression_wipe,Progression wipe,14,17,140
+all_dates,italian,gameplay_design,Gameplay & design,22,33,140
+all_dates,italian,developer_trust_enforcement,Dev trust & bans,6,11,140
+all_dates,italian,technical_client,Technical (client),11,21,140
+all_dates,italian,servers_access,Servers & access,15,19,140
+all_dates,italian,social_teammates,Social & teammates,2,11,140
+all_dates,italian,price_value,Price & value,1,8,140
+all_dates,italian,unclear_other,Unclear / other,12,12,140
+all_dates,latam,cheaters,Cheaters,10,16,99
+all_dates,latam,balance,Balance,16,33,99
+all_dates,latam,grind_gear_gap,Grind & gear gap,14,24,99
+all_dates,latam,ping_cap_region_access,Ping cap / region,6,8,99
+all_dates,latam,progression_wipe,Progression wipe,13,18,99
+all_dates,latam,gameplay_design,Gameplay & design,10,15,99
+all_dates,latam,developer_trust_enforcement,Dev trust & bans,5,8,99
+all_dates,latam,technical_client,Technical (client),8,11,99
+all_dates,latam,servers_access,Servers & access,7,7,99
+all_dates,latam,social_teammates,Social & teammates,3,9,99
+all_dates,latam,price_value,Price & value,1,5,99
+all_dates,latam,unclear_other,Unclear / other,6,6,99
+all_dates,hungarian,cheaters,Cheaters,19,27,92
+all_dates,hungarian,balance,Balance,9,20,92
+all_dates,hungarian,grind_gear_gap,Grind & gear gap,11,17,92
+all_dates,hungarian,ping_cap_region_access,Ping cap / region,2,2,92
+all_dates,hungarian,progression_wipe,Progression wipe,9,12,92
+all_dates,hungarian,gameplay_design,Gameplay & design,13,16,92
+all_dates,hungarian,developer_trust_enforcement,Dev trust & bans,4,12,92
+all_dates,hungarian,technical_client,Technical (client),8,13,92
+all_dates,hungarian,servers_access,Servers & access,8,12,92
+all_dates,hungarian,social_teammates,Social & teammates,1,6,92
+all_dates,hungarian,price_value,Price & value,0,5,92
+all_dates,hungarian,unclear_other,Unclear / other,8,8,92
+all_dates,swedish,cheaters,Cheaters,13,20,92
+all_dates,swedish,balance,Balance,13,23,92
+all_dates,swedish,grind_gear_gap,Grind & gear gap,11,21,92
+all_dates,swedish,ping_cap_region_access,Ping cap / region,1,2,92
+all_dates,swedish,progression_wipe,Progression wipe,13,18,92
+all_dates,swedish,gameplay_design,Gameplay & design,12,19,92
+all_dates,swedish,developer_trust_enforcement,Dev trust & bans,2,9,92
+all_dates,swedish,technical_client,Technical (client),9,12,92
+all_dates,swedish,servers_access,Servers & access,4,5,92
+all_dates,swedish,social_teammates,Social & teammates,0,3,92
+all_dates,swedish,price_value,Price & value,3,7,92
+all_dates,swedish,unclear_other,Unclear / other,11,11,92
+all_dates,dutch,cheaters,Cheaters,17,22,81
+all_dates,dutch,balance,Balance,11,16,81
+all_dates,dutch,grind_gear_gap,Grind & gear gap,6,16,81
+all_dates,dutch,ping_cap_region_access,Ping cap / region,0,2,81
+all_dates,dutch,progression_wipe,Progression wipe,8,10,81
+all_dates,dutch,gameplay_design,Gameplay & design,6,17,81
+all_dates,dutch,developer_trust_enforcement,Dev trust & bans,6,14,81
+all_dates,dutch,technical_client,Technical (client),7,8,81
+all_dates,dutch,servers_access,Servers & access,4,5,81
+all_dates,dutch,social_teammates,Social & teammates,3,4,81
+all_dates,dutch,price_value,Price & value,3,8,81
+all_dates,dutch,unclear_other,Unclear / other,10,10,81
+all_dates,danish,cheaters,Cheaters,14,15,62
+all_dates,danish,balance,Balance,5,12,62
+all_dates,danish,grind_gear_gap,Grind & gear gap,8,12,62
+all_dates,danish,ping_cap_region_access,Ping cap / region,0,1,62
+all_dates,danish,progression_wipe,Progression wipe,6,10,62
+all_dates,danish,gameplay_design,Gameplay & design,10,18,62
+all_dates,danish,developer_trust_enforcement,Dev trust & bans,0,5,62
+all_dates,danish,technical_client,Technical (client),10,11,62
+all_dates,danish,servers_access,Servers & access,1,2,62
+all_dates,danish,social_teammates,Social & teammates,1,4,62
+all_dates,danish,price_value,Price & value,1,2,62
+all_dates,danish,unclear_other,Unclear / other,6,6,62
+all_dates,portuguese,cheaters,Cheaters,7,12,44
+all_dates,portuguese,balance,Balance,7,12,44
+all_dates,portuguese,grind_gear_gap,Grind & gear gap,4,9,44
+all_dates,portuguese,ping_cap_region_access,Ping cap / region,1,1,44
+all_dates,portuguese,progression_wipe,Progression wipe,3,7,44
+all_dates,portuguese,gameplay_design,Gameplay & design,2,2,44
+all_dates,portuguese,developer_trust_enforcement,Dev trust & bans,4,6,44
+all_dates,portuguese,technical_client,Technical (client),6,10,44
+all_dates,portuguese,servers_access,Servers & access,7,7,44
+all_dates,portuguese,social_teammates,Social & teammates,0,2,44
+all_dates,portuguese,price_value,Price & value,1,2,44
+all_dates,portuguese,unclear_other,Unclear / other,2,2,44
+all_dates,finnish,cheaters,Cheaters,2,5,44
+all_dates,finnish,balance,Balance,6,15,44
+all_dates,finnish,grind_gear_gap,Grind & gear gap,9,14,44
+all_dates,finnish,ping_cap_region_access,Ping cap / region,1,1,44
+all_dates,finnish,progression_wipe,Progression wipe,5,9,44
+all_dates,finnish,gameplay_design,Gameplay & design,4,7,44
+all_dates,finnish,developer_trust_enforcement,Dev trust & bans,2,5,44
+all_dates,finnish,technical_client,Technical (client),6,6,44
+all_dates,finnish,servers_access,Servers & access,4,4,44
+all_dates,finnish,social_teammates,Social & teammates,1,1,44
+all_dates,finnish,price_value,Price & value,0,4,44
+all_dates,finnish,unclear_other,Unclear / other,4,4,44
+all_dates,norwegian,cheaters,Cheaters,2,2,40
+all_dates,norwegian,balance,Balance,4,13,40
+all_dates,norwegian,grind_gear_gap,Grind & gear gap,7,10,40
+all_dates,norwegian,ping_cap_region_access,Ping cap / region,0,1,40
+all_dates,norwegian,progression_wipe,Progression wipe,5,5,40
+all_dates,norwegian,gameplay_design,Gameplay & design,2,6,40
+all_dates,norwegian,developer_trust_enforcement,Dev trust & bans,2,3,40
+all_dates,norwegian,technical_client,Technical (client),5,6,40
+all_dates,norwegian,servers_access,Servers & access,2,2,40
+all_dates,norwegian,social_teammates,Social & teammates,2,3,40
+all_dates,norwegian,price_value,Price & value,0,2,40
+all_dates,norwegian,unclear_other,Unclear / other,9,9,40
+all_dates,greek,cheaters,Cheaters,4,5,11
+all_dates,greek,balance,Balance,1,2,11
+all_dates,greek,grind_gear_gap,Grind & gear gap,2,2,11
+all_dates,greek,ping_cap_region_access,Ping cap / region,0,0,11
+all_dates,greek,progression_wipe,Progression wipe,1,3,11
+all_dates,greek,gameplay_design,Gameplay & design,1,1,11
+all_dates,greek,developer_trust_enforcement,Dev trust & bans,1,2,11
+all_dates,greek,technical_client,Technical (client),0,0,11
+all_dates,greek,servers_access,Servers & access,0,0,11
+all_dates,greek,social_teammates,Social & teammates,1,1,11
+all_dates,greek,price_value,Price & value,0,0,11
+all_dates,greek,unclear_other,Unclear / other,0,0,11
+all_dates,vietnamese,cheaters,Cheaters,4,4,9
+all_dates,vietnamese,balance,Balance,0,0,9
+all_dates,vietnamese,grind_gear_gap,Grind & gear gap,0,1,9
+all_dates,vietnamese,ping_cap_region_access,Ping cap / region,0,0,9
+all_dates,vietnamese,progression_wipe,Progression wipe,1,1,9
+all_dates,vietnamese,gameplay_design,Gameplay & design,0,0,9
+all_dates,vietnamese,developer_trust_enforcement,Dev trust & bans,1,2,9
+all_dates,vietnamese,technical_client,Technical (client),1,4,9
+all_dates,vietnamese,servers_access,Servers & access,2,3,9
+all_dates,vietnamese,social_teammates,Social & teammates,0,0,9
+all_dates,vietnamese,price_value,Price & value,0,2,9
+all_dates,vietnamese,unclear_other,Unclear / other,0,0,9
+all_dates,indonesian,cheaters,Cheaters,0,0,5
+all_dates,indonesian,balance,Balance,0,0,5
+all_dates,indonesian,grind_gear_gap,Grind & gear gap,2,2,5
+all_dates,indonesian,ping_cap_region_access,Ping cap / region,0,0,5
+all_dates,indonesian,progression_wipe,Progression wipe,1,2,5
+all_dates,indonesian,gameplay_design,Gameplay & design,0,1,5
+all_dates,indonesian,developer_trust_enforcement,Dev trust & bans,1,1,5
+all_dates,indonesian,technical_client,Technical (client),0,1,5
+all_dates,indonesian,servers_access,Servers & access,1,1,5
+all_dates,indonesian,social_teammates,Social & teammates,0,0,5
+all_dates,indonesian,price_value,Price & value,0,0,5
+all_dates,indonesian,unclear_other,Unclear / other,0,0,5
+all_dates,bulgarian,cheaters,Cheaters,2,2,4
+all_dates,bulgarian,balance,Balance,0,1,4
+all_dates,bulgarian,grind_gear_gap,Grind & gear gap,0,0,4
+all_dates,bulgarian,ping_cap_region_access,Ping cap / region,0,0,4
+all_dates,bulgarian,progression_wipe,Progression wipe,0,1,4
+all_dates,bulgarian,gameplay_design,Gameplay & design,1,1,4
+all_dates,bulgarian,developer_trust_enforcement,Dev trust & bans,0,2,4
+all_dates,bulgarian,technical_client,Technical (client),0,0,4
+all_dates,bulgarian,servers_access,Servers & access,0,0,4
+all_dates,bulgarian,social_teammates,Social & teammates,1,1,4
+all_dates,bulgarian,price_value,Price & value,0,0,4
+all_dates,bulgarian,unclear_other,Unclear / other,0,0,4
+all_dates,romanian,cheaters,Cheaters,1,1,4
+all_dates,romanian,balance,Balance,0,0,4
+all_dates,romanian,grind_gear_gap,Grind & gear gap,0,2,4
+all_dates,romanian,ping_cap_region_access,Ping cap / region,0,0,4
+all_dates,romanian,progression_wipe,Progression wipe,1,1,4
+all_dates,romanian,gameplay_design,Gameplay & design,0,0,4
+all_dates,romanian,developer_trust_enforcement,Dev trust & bans,0,0,4
+all_dates,romanian,technical_client,Technical (client),1,1,4
+all_dates,romanian,servers_access,Servers & access,0,0,4
+all_dates,romanian,social_teammates,Social & teammates,0,0,4
+all_dates,romanian,price_value,Price & value,1,1,4
+all_dates,romanian,unclear_other,Unclear / other,0,0,4
+excl_oct22_24,english,cheaters,Cheaters,2907,4557,26816
+excl_oct22_24,english,balance,Balance,4690,8112,26816
+excl_oct22_24,english,grind_gear_gap,Grind & gear gap,4249,7558,26816
+excl_oct22_24,english,ping_cap_region_access,Ping cap / region,1016,1396,26816
+excl_oct22_24,english,progression_wipe,Progression wipe,2964,5237,26816
+excl_oct22_24,english,gameplay_design,Gameplay & design,2871,5577,26816
+excl_oct22_24,english,developer_trust_enforcement,Dev trust & bans,1601,3666,26816
+excl_oct22_24,english,technical_client,Technical (client),2103,2970,26816
+excl_oct22_24,english,servers_access,Servers & access,1412,2106,26816
+excl_oct22_24,english,social_teammates,Social & teammates,853,2150,26816
+excl_oct22_24,english,price_value,Price & value,379,1354,26816
+excl_oct22_24,english,unclear_other,Unclear / other,1771,1771,26816
+excl_oct22_24,schinese,cheaters,Cheaters,2768,4875,12160
+excl_oct22_24,schinese,balance,Balance,565,1331,12160
+excl_oct22_24,schinese,grind_gear_gap,Grind & gear gap,1008,1830,12160
+excl_oct22_24,schinese,ping_cap_region_access,Ping cap / region,1654,2221,12160
+excl_oct22_24,schinese,progression_wipe,Progression wipe,605,1133,12160
+excl_oct22_24,schinese,gameplay_design,Gameplay & design,390,859,12160
+excl_oct22_24,schinese,developer_trust_enforcement,Dev trust & bans,1653,3211,12160
+excl_oct22_24,schinese,technical_client,Technical (client),762,1180,12160
+excl_oct22_24,schinese,servers_access,Servers & access,1018,1533,12160
+excl_oct22_24,schinese,social_teammates,Social & teammates,140,368,12160
+excl_oct22_24,schinese,price_value,Price & value,93,355,12160
+excl_oct22_24,schinese,unclear_other,Unclear / other,1504,1504,12160
+excl_oct22_24,russian,cheaters,Cheaters,346,524,3167
+excl_oct22_24,russian,balance,Balance,444,764,3167
+excl_oct22_24,russian,grind_gear_gap,Grind & gear gap,295,618,3167
+excl_oct22_24,russian,ping_cap_region_access,Ping cap / region,134,183,3167
+excl_oct22_24,russian,progression_wipe,Progression wipe,319,503,3167
+excl_oct22_24,russian,gameplay_design,Gameplay & design,372,677,3167
+excl_oct22_24,russian,developer_trust_enforcement,Dev trust & bans,121,322,3167
+excl_oct22_24,russian,technical_client,Technical (client),283,483,3167
+excl_oct22_24,russian,servers_access,Servers & access,402,507,3167
+excl_oct22_24,russian,social_teammates,Social & teammates,52,149,3167
+excl_oct22_24,russian,price_value,Price & value,41,166,3167
+excl_oct22_24,russian,unclear_other,Unclear / other,358,358,3167
+excl_oct22_24,german,cheaters,Cheaters,299,401,1944
+excl_oct22_24,german,balance,Balance,260,484,1944
+excl_oct22_24,german,grind_gear_gap,Grind & gear gap,313,543,1944
+excl_oct22_24,german,ping_cap_region_access,Ping cap / region,24,54,1944
+excl_oct22_24,german,progression_wipe,Progression wipe,257,418,1944
+excl_oct22_24,german,gameplay_design,Gameplay & design,214,379,1944
+excl_oct22_24,german,developer_trust_enforcement,Dev trust & bans,59,171,1944
+excl_oct22_24,german,technical_client,Technical (client),166,232,1944
+excl_oct22_24,german,servers_access,Servers & access,133,185,1944
+excl_oct22_24,german,social_teammates,Social & teammates,48,138,1944
+excl_oct22_24,german,price_value,Price & value,27,102,1944
+excl_oct22_24,german,unclear_other,Unclear / other,144,144,1944
+excl_oct22_24,koreana,cheaters,Cheaters,406,575,1116
+excl_oct22_24,koreana,balance,Balance,94,169,1116
+excl_oct22_24,koreana,grind_gear_gap,Grind & gear gap,41,83,1116
+excl_oct22_24,koreana,ping_cap_region_access,Ping cap / region,161,239,1116
+excl_oct22_24,koreana,progression_wipe,Progression wipe,35,69,1116
+excl_oct22_24,koreana,gameplay_design,Gameplay & design,65,116,1116
+excl_oct22_24,koreana,developer_trust_enforcement,Dev trust & bans,53,176,1116
+excl_oct22_24,koreana,technical_client,Technical (client),39,60,1116
+excl_oct22_24,koreana,servers_access,Servers & access,71,142,1116
+excl_oct22_24,koreana,social_teammates,Social & teammates,23,57,1116
+excl_oct22_24,koreana,price_value,Price & value,17,44,1116
+excl_oct22_24,koreana,unclear_other,Unclear / other,111,111,1116
+excl_oct22_24,tchinese,cheaters,Cheaters,295,442,897
+excl_oct22_24,tchinese,balance,Balance,46,96,897
+excl_oct22_24,tchinese,grind_gear_gap,Grind & gear gap,73,140,897
+excl_oct22_24,tchinese,ping_cap_region_access,Ping cap / region,105,135,897
+excl_oct22_24,tchinese,progression_wipe,Progression wipe,61,97,897
+excl_oct22_24,tchinese,gameplay_design,Gameplay & design,42,83,897
+excl_oct22_24,tchinese,developer_trust_enforcement,Dev trust & bans,76,150,897
+excl_oct22_24,tchinese,technical_client,Technical (client),47,80,897
+excl_oct22_24,tchinese,servers_access,Servers & access,64,95,897
+excl_oct22_24,tchinese,social_teammates,Social & teammates,15,38,897
+excl_oct22_24,tchinese,price_value,Price & value,5,25,897
+excl_oct22_24,tchinese,unclear_other,Unclear / other,68,68,897
+excl_oct22_24,brazilian,cheaters,Cheaters,123,182,929
+excl_oct22_24,brazilian,balance,Balance,173,276,929
+excl_oct22_24,brazilian,grind_gear_gap,Grind & gear gap,93,186,929
+excl_oct22_24,brazilian,ping_cap_region_access,Ping cap / region,7,9,929
+excl_oct22_24,brazilian,progression_wipe,Progression wipe,104,154,929
+excl_oct22_24,brazilian,gameplay_design,Gameplay & design,77,153,929
+excl_oct22_24,brazilian,developer_trust_enforcement,Dev trust & bans,78,129,929
+excl_oct22_24,brazilian,technical_client,Technical (client),112,159,929
+excl_oct22_24,brazilian,servers_access,Servers & access,65,90,929
+excl_oct22_24,brazilian,social_teammates,Social & teammates,21,50,929
+excl_oct22_24,brazilian,price_value,Price & value,18,53,929
+excl_oct22_24,brazilian,unclear_other,Unclear / other,58,58,929
+excl_oct22_24,french,cheaters,Cheaters,114,162,884
+excl_oct22_24,french,balance,Balance,151,285,884
+excl_oct22_24,french,grind_gear_gap,Grind & gear gap,163,264,884
+excl_oct22_24,french,ping_cap_region_access,Ping cap / region,4,9,884
+excl_oct22_24,french,progression_wipe,Progression wipe,101,160,884
+excl_oct22_24,french,gameplay_design,Gameplay & design,103,204,884
+excl_oct22_24,french,developer_trust_enforcement,Dev trust & bans,27,71,884
+excl_oct22_24,french,technical_client,Technical (client),85,124,884
+excl_oct22_24,french,servers_access,Servers & access,49,72,884
+excl_oct22_24,french,social_teammates,Social & teammates,25,70,884
+excl_oct22_24,french,price_value,Price & value,19,59,884
+excl_oct22_24,french,unclear_other,Unclear / other,43,43,884
+excl_oct22_24,japanese,cheaters,Cheaters,99,175,482
+excl_oct22_24,japanese,balance,Balance,63,126,482
+excl_oct22_24,japanese,grind_gear_gap,Grind & gear gap,63,109,482
+excl_oct22_24,japanese,ping_cap_region_access,Ping cap / region,45,68,482
+excl_oct22_24,japanese,progression_wipe,Progression wipe,28,47,482
+excl_oct22_24,japanese,gameplay_design,Gameplay & design,72,136,482
+excl_oct22_24,japanese,developer_trust_enforcement,Dev trust & bans,13,30,482
+excl_oct22_24,japanese,technical_client,Technical (client),23,35,482
+excl_oct22_24,japanese,servers_access,Servers & access,26,43,482
+excl_oct22_24,japanese,social_teammates,Social & teammates,18,42,482
+excl_oct22_24,japanese,price_value,Price & value,4,11,482
+excl_oct22_24,japanese,unclear_other,Unclear / other,28,28,482
+excl_oct22_24,turkish,cheaters,Cheaters,70,96,557
+excl_oct22_24,turkish,balance,Balance,74,124,557
+excl_oct22_24,turkish,grind_gear_gap,Grind & gear gap,39,76,557
+excl_oct22_24,turkish,ping_cap_region_access,Ping cap / region,4,6,557
+excl_oct22_24,turkish,progression_wipe,Progression wipe,60,77,557
+excl_oct22_24,turkish,gameplay_design,Gameplay & design,56,103,557
+excl_oct22_24,turkish,developer_trust_enforcement,Dev trust & bans,38,68,557
+excl_oct22_24,turkish,technical_client,Technical (client),58,79,557
+excl_oct22_24,turkish,servers_access,Servers & access,61,69,557
+excl_oct22_24,turkish,social_teammates,Social & teammates,9,22,557
+excl_oct22_24,turkish,price_value,Price & value,13,52,557
+excl_oct22_24,turkish,unclear_other,Unclear / other,75,75,557
+excl_oct22_24,polish,cheaters,Cheaters,44,69,477
+excl_oct22_24,polish,balance,Balance,76,129,477
+excl_oct22_24,polish,grind_gear_gap,Grind & gear gap,72,124,477
+excl_oct22_24,polish,ping_cap_region_access,Ping cap / region,3,5,477
+excl_oct22_24,polish,progression_wipe,Progression wipe,63,97,477
+excl_oct22_24,polish,gameplay_design,Gameplay & design,48,98,477
+excl_oct22_24,polish,developer_trust_enforcement,Dev trust & bans,19,49,477
+excl_oct22_24,polish,technical_client,Technical (client),52,69,477
+excl_oct22_24,polish,servers_access,Servers & access,52,62,477
+excl_oct22_24,polish,social_teammates,Social & teammates,8,26,477
+excl_oct22_24,polish,price_value,Price & value,6,25,477
+excl_oct22_24,polish,unclear_other,Unclear / other,34,34,477
+excl_oct22_24,spanish,cheaters,Cheaters,62,94,441
+excl_oct22_24,spanish,balance,Balance,60,108,441
+excl_oct22_24,spanish,grind_gear_gap,Grind & gear gap,39,75,441
+excl_oct22_24,spanish,ping_cap_region_access,Ping cap / region,6,8,441
+excl_oct22_24,spanish,progression_wipe,Progression wipe,56,85,441
+excl_oct22_24,spanish,gameplay_design,Gameplay & design,55,89,441
+excl_oct22_24,spanish,developer_trust_enforcement,Dev trust & bans,18,47,441
+excl_oct22_24,spanish,technical_client,Technical (client),46,71,441
+excl_oct22_24,spanish,servers_access,Servers & access,44,63,441
+excl_oct22_24,spanish,social_teammates,Social & teammates,11,29,441
+excl_oct22_24,spanish,price_value,Price & value,12,26,441
+excl_oct22_24,spanish,unclear_other,Unclear / other,32,32,441
+excl_oct22_24,thai,cheaters,Cheaters,102,153,290
+excl_oct22_24,thai,balance,Balance,6,17,290
+excl_oct22_24,thai,grind_gear_gap,Grind & gear gap,17,31,290
+excl_oct22_24,thai,ping_cap_region_access,Ping cap / region,9,17,290
+excl_oct22_24,thai,progression_wipe,Progression wipe,3,10,290
+excl_oct22_24,thai,gameplay_design,Gameplay & design,10,20,290
+excl_oct22_24,thai,developer_trust_enforcement,Dev trust & bans,48,85,290
+excl_oct22_24,thai,technical_client,Technical (client),9,18,290
+excl_oct22_24,thai,servers_access,Servers & access,61,79,290
+excl_oct22_24,thai,social_teammates,Social & teammates,2,10,290
+excl_oct22_24,thai,price_value,Price & value,5,21,290
+excl_oct22_24,thai,unclear_other,Unclear / other,18,18,290
+excl_oct22_24,ukrainian,cheaters,Cheaters,35,50,301
+excl_oct22_24,ukrainian,balance,Balance,50,92,301
+excl_oct22_24,ukrainian,grind_gear_gap,Grind & gear gap,48,83,301
+excl_oct22_24,ukrainian,ping_cap_region_access,Ping cap / region,3,4,301
+excl_oct22_24,ukrainian,progression_wipe,Progression wipe,34,48,301
+excl_oct22_24,ukrainian,gameplay_design,Gameplay & design,24,58,301
+excl_oct22_24,ukrainian,developer_trust_enforcement,Dev trust & bans,12,19,301
+excl_oct22_24,ukrainian,technical_client,Technical (client),26,42,301
+excl_oct22_24,ukrainian,servers_access,Servers & access,29,39,301
+excl_oct22_24,ukrainian,social_teammates,Social & teammates,3,10,301
+excl_oct22_24,ukrainian,price_value,Price & value,3,13,301
+excl_oct22_24,ukrainian,unclear_other,Unclear / other,34,34,301
+excl_oct22_24,czech,cheaters,Cheaters,26,35,208
+excl_oct22_24,czech,balance,Balance,30,54,208
+excl_oct22_24,czech,grind_gear_gap,Grind & gear gap,27,48,208
+excl_oct22_24,czech,ping_cap_region_access,Ping cap / region,0,4,208
+excl_oct22_24,czech,progression_wipe,Progression wipe,32,44,208
+excl_oct22_24,czech,gameplay_design,Gameplay & design,24,45,208
+excl_oct22_24,czech,developer_trust_enforcement,Dev trust & bans,7,21,208
+excl_oct22_24,czech,technical_client,Technical (client),20,25,208
+excl_oct22_24,czech,servers_access,Servers & access,12,17,208
+excl_oct22_24,czech,social_teammates,Social & teammates,1,9,208
+excl_oct22_24,czech,price_value,Price & value,5,13,208
+excl_oct22_24,czech,unclear_other,Unclear / other,24,24,208
+excl_oct22_24,italian,cheaters,Cheaters,20,32,135
+excl_oct22_24,italian,balance,Balance,15,34,135
+excl_oct22_24,italian,grind_gear_gap,Grind & gear gap,20,31,135
+excl_oct22_24,italian,ping_cap_region_access,Ping cap / region,0,0,135
+excl_oct22_24,italian,progression_wipe,Progression wipe,12,15,135
+excl_oct22_24,italian,gameplay_design,Gameplay & design,21,32,135
+excl_oct22_24,italian,developer_trust_enforcement,Dev trust & bans,6,11,135
+excl_oct22_24,italian,technical_client,Technical (client),11,21,135
+excl_oct22_24,italian,servers_access,Servers & access,15,19,135
+excl_oct22_24,italian,social_teammates,Social & teammates,2,11,135
+excl_oct22_24,italian,price_value,Price & value,1,8,135
+excl_oct22_24,italian,unclear_other,Unclear / other,12,12,135
+excl_oct22_24,latam,cheaters,Cheaters,8,14,92
+excl_oct22_24,latam,balance,Balance,15,31,92
+excl_oct22_24,latam,grind_gear_gap,Grind & gear gap,14,23,92
+excl_oct22_24,latam,ping_cap_region_access,Ping cap / region,4,6,92
+excl_oct22_24,latam,progression_wipe,Progression wipe,13,18,92
+excl_oct22_24,latam,gameplay_design,Gameplay & design,10,15,92
+excl_oct22_24,latam,developer_trust_enforcement,Dev trust & bans,5,8,92
+excl_oct22_24,latam,technical_client,Technical (client),7,10,92
+excl_oct22_24,latam,servers_access,Servers & access,7,7,92
+excl_oct22_24,latam,social_teammates,Social & teammates,2,7,92
+excl_oct22_24,latam,price_value,Price & value,1,5,92
+excl_oct22_24,latam,unclear_other,Unclear / other,6,6,92
+excl_oct22_24,hungarian,cheaters,Cheaters,17,24,88
+excl_oct22_24,hungarian,balance,Balance,9,20,88
+excl_oct22_24,hungarian,grind_gear_gap,Grind & gear gap,11,17,88
+excl_oct22_24,hungarian,ping_cap_region_access,Ping cap / region,2,2,88
+excl_oct22_24,hungarian,progression_wipe,Progression wipe,9,12,88
+excl_oct22_24,hungarian,gameplay_design,Gameplay & design,13,16,88
+excl_oct22_24,hungarian,developer_trust_enforcement,Dev trust & bans,3,11,88
+excl_oct22_24,hungarian,technical_client,Technical (client),8,13,88
+excl_oct22_24,hungarian,servers_access,Servers & access,7,11,88
+excl_oct22_24,hungarian,social_teammates,Social & teammates,1,6,88
+excl_oct22_24,hungarian,price_value,Price & value,0,5,88
+excl_oct22_24,hungarian,unclear_other,Unclear / other,8,8,88
+excl_oct22_24,swedish,cheaters,Cheaters,13,18,88
+excl_oct22_24,swedish,balance,Balance,13,23,88
+excl_oct22_24,swedish,grind_gear_gap,Grind & gear gap,10,20,88
+excl_oct22_24,swedish,ping_cap_region_access,Ping cap / region,1,2,88
+excl_oct22_24,swedish,progression_wipe,Progression wipe,12,17,88
+excl_oct22_24,swedish,gameplay_design,Gameplay & design,12,19,88
+excl_oct22_24,swedish,developer_trust_enforcement,Dev trust & bans,2,9,88
+excl_oct22_24,swedish,technical_client,Technical (client),9,12,88
+excl_oct22_24,swedish,servers_access,Servers & access,3,4,88
+excl_oct22_24,swedish,social_teammates,Social & teammates,0,3,88
+excl_oct22_24,swedish,price_value,Price & value,3,7,88
+excl_oct22_24,swedish,unclear_other,Unclear / other,10,10,88
+excl_oct22_24,dutch,cheaters,Cheaters,17,22,78
+excl_oct22_24,dutch,balance,Balance,11,16,78
+excl_oct22_24,dutch,grind_gear_gap,Grind & gear gap,6,15,78
+excl_oct22_24,dutch,ping_cap_region_access,Ping cap / region,0,2,78
+excl_oct22_24,dutch,progression_wipe,Progression wipe,6,8,78
+excl_oct22_24,dutch,gameplay_design,Gameplay & design,6,17,78
+excl_oct22_24,dutch,developer_trust_enforcement,Dev trust & bans,6,13,78
+excl_oct22_24,dutch,technical_client,Technical (client),6,7,78
+excl_oct22_24,dutch,servers_access,Servers & access,4,5,78
+excl_oct22_24,dutch,social_teammates,Social & teammates,3,4,78
+excl_oct22_24,dutch,price_value,Price & value,3,8,78
+excl_oct22_24,dutch,unclear_other,Unclear / other,10,10,78
+excl_oct22_24,danish,cheaters,Cheaters,13,14,59
+excl_oct22_24,danish,balance,Balance,5,12,59
+excl_oct22_24,danish,grind_gear_gap,Grind & gear gap,8,11,59
+excl_oct22_24,danish,ping_cap_region_access,Ping cap / region,0,1,59
+excl_oct22_24,danish,progression_wipe,Progression wipe,5,9,59
+excl_oct22_24,danish,gameplay_design,Gameplay & design,9,17,59
+excl_oct22_24,danish,developer_trust_enforcement,Dev trust & bans,0,5,59
+excl_oct22_24,danish,technical_client,Technical (client),10,11,59
+excl_oct22_24,danish,servers_access,Servers & access,1,2,59
+excl_oct22_24,danish,social_teammates,Social & teammates,1,3,59
+excl_oct22_24,danish,price_value,Price & value,1,2,59
+excl_oct22_24,danish,unclear_other,Unclear / other,6,6,59
+excl_oct22_24,portuguese,cheaters,Cheaters,6,10,40
+excl_oct22_24,portuguese,balance,Balance,6,11,40
+excl_oct22_24,portuguese,grind_gear_gap,Grind & gear gap,4,8,40
+excl_oct22_24,portuguese,ping_cap_region_access,Ping cap / region,0,0,40
+excl_oct22_24,portuguese,progression_wipe,Progression wipe,3,7,40
+excl_oct22_24,portuguese,gameplay_design,Gameplay & design,2,2,40
+excl_oct22_24,portuguese,developer_trust_enforcement,Dev trust & bans,4,6,40
+excl_oct22_24,portuguese,technical_client,Technical (client),6,9,40
+excl_oct22_24,portuguese,servers_access,Servers & access,6,6,40
+excl_oct22_24,portuguese,social_teammates,Social & teammates,0,2,40
+excl_oct22_24,portuguese,price_value,Price & value,1,2,40
+excl_oct22_24,portuguese,unclear_other,Unclear / other,2,2,40
+excl_oct22_24,finnish,cheaters,Cheaters,2,5,43
+excl_oct22_24,finnish,balance,Balance,6,15,43
+excl_oct22_24,finnish,grind_gear_gap,Grind & gear gap,9,13,43
+excl_oct22_24,finnish,ping_cap_region_access,Ping cap / region,1,1,43
+excl_oct22_24,finnish,progression_wipe,Progression wipe,4,8,43
+excl_oct22_24,finnish,gameplay_design,Gameplay & design,4,7,43
+excl_oct22_24,finnish,developer_trust_enforcement,Dev trust & bans,2,5,43
+excl_oct22_24,finnish,technical_client,Technical (client),6,6,43
+excl_oct22_24,finnish,servers_access,Servers & access,4,4,43
+excl_oct22_24,finnish,social_teammates,Social & teammates,1,1,43
+excl_oct22_24,finnish,price_value,Price & value,0,4,43
+excl_oct22_24,finnish,unclear_other,Unclear / other,4,4,43
+excl_oct22_24,norwegian,cheaters,Cheaters,2,2,39
+excl_oct22_24,norwegian,balance,Balance,4,13,39
+excl_oct22_24,norwegian,grind_gear_gap,Grind & gear gap,7,10,39
+excl_oct22_24,norwegian,ping_cap_region_access,Ping cap / region,0,1,39
+excl_oct22_24,norwegian,progression_wipe,Progression wipe,5,5,39
+excl_oct22_24,norwegian,gameplay_design,Gameplay & design,2,6,39
+excl_oct22_24,norwegian,developer_trust_enforcement,Dev trust & bans,2,3,39
+excl_oct22_24,norwegian,technical_client,Technical (client),5,6,39
+excl_oct22_24,norwegian,servers_access,Servers & access,2,2,39
+excl_oct22_24,norwegian,social_teammates,Social & teammates,2,3,39
+excl_oct22_24,norwegian,price_value,Price & value,0,2,39
+excl_oct22_24,norwegian,unclear_other,Unclear / other,8,8,39
+excl_oct22_24,greek,cheaters,Cheaters,4,5,11
+excl_oct22_24,greek,balance,Balance,1,2,11
+excl_oct22_24,greek,grind_gear_gap,Grind & gear gap,2,2,11
+excl_oct22_24,greek,ping_cap_region_access,Ping cap / region,0,0,11
+excl_oct22_24,greek,progression_wipe,Progression wipe,1,3,11
+excl_oct22_24,greek,gameplay_design,Gameplay & design,1,1,11
+excl_oct22_24,greek,developer_trust_enforcement,Dev trust & bans,1,2,11
+excl_oct22_24,greek,technical_client,Technical (client),0,0,11
+excl_oct22_24,greek,servers_access,Servers & access,0,0,11
+excl_oct22_24,greek,social_teammates,Social & teammates,1,1,11
+excl_oct22_24,greek,price_value,Price & value,0,0,11
+excl_oct22_24,greek,unclear_other,Unclear / other,0,0,11
+excl_oct22_24,vietnamese,cheaters,Cheaters,4,4,8
+excl_oct22_24,vietnamese,balance,Balance,0,0,8
+excl_oct22_24,vietnamese,grind_gear_gap,Grind & gear gap,0,1,8
+excl_oct22_24,vietnamese,ping_cap_region_access,Ping cap / region,0,0,8
+excl_oct22_24,vietnamese,progression_wipe,Progression wipe,1,1,8
+excl_oct22_24,vietnamese,gameplay_design,Gameplay & design,0,0,8
+excl_oct22_24,vietnamese,developer_trust_enforcement,Dev trust & bans,1,2,8
+excl_oct22_24,vietnamese,technical_client,Technical (client),1,3,8
+excl_oct22_24,vietnamese,servers_access,Servers & access,1,2,8
+excl_oct22_24,vietnamese,social_teammates,Social & teammates,0,0,8
+excl_oct22_24,vietnamese,price_value,Price & value,0,2,8
+excl_oct22_24,vietnamese,unclear_other,Unclear / other,0,0,8
+excl_oct22_24,indonesian,cheaters,Cheaters,0,0,4
+excl_oct22_24,indonesian,balance,Balance,0,0,4
+excl_oct22_24,indonesian,grind_gear_gap,Grind & gear gap,2,2,4
+excl_oct22_24,indonesian,ping_cap_region_access,Ping cap / region,0,0,4
+excl_oct22_24,indonesian,progression_wipe,Progression wipe,1,2,4
+excl_oct22_24,indonesian,gameplay_design,Gameplay & design,0,1,4
+excl_oct22_24,indonesian,developer_trust_enforcement,Dev trust & bans,1,1,4
+excl_oct22_24,indonesian,technical_client,Technical (client),0,0,4
+excl_oct22_24,indonesian,servers_access,Servers & access,0,0,4
+excl_oct22_24,indonesian,social_teammates,Social & teammates,0,0,4
+excl_oct22_24,indonesian,price_value,Price & value,0,0,4
+excl_oct22_24,indonesian,unclear_other,Unclear / other,0,0,4
+excl_oct22_24,bulgarian,cheaters,Cheaters,2,2,4
+excl_oct22_24,bulgarian,balance,Balance,0,1,4
+excl_oct22_24,bulgarian,grind_gear_gap,Grind & gear gap,0,0,4
+excl_oct22_24,bulgarian,ping_cap_region_access,Ping cap / region,0,0,4
+excl_oct22_24,bulgarian,progression_wipe,Progression wipe,0,1,4
+excl_oct22_24,bulgarian,gameplay_design,Gameplay & design,1,1,4
+excl_oct22_24,bulgarian,developer_trust_enforcement,Dev trust & bans,0,2,4
+excl_oct22_24,bulgarian,technical_client,Technical (client),0,0,4
+excl_oct22_24,bulgarian,servers_access,Servers & access,0,0,4
+excl_oct22_24,bulgarian,social_teammates,Social & teammates,1,1,4
+excl_oct22_24,bulgarian,price_value,Price & value,0,0,4
+excl_oct22_24,bulgarian,unclear_other,Unclear / other,0,0,4
+excl_oct22_24,romanian,cheaters,Cheaters,1,1,4
+excl_oct22_24,romanian,balance,Balance,0,0,4
+excl_oct22_24,romanian,grind_gear_gap,Grind & gear gap,0,2,4
+excl_oct22_24,romanian,ping_cap_region_access,Ping cap / region,0,0,4
+excl_oct22_24,romanian,progression_wipe,Progression wipe,1,1,4
+excl_oct22_24,romanian,gameplay_design,Gameplay & design,0,0,4
+excl_oct22_24,romanian,developer_trust_enforcement,Dev trust & bans,0,0,4
+excl_oct22_24,romanian,technical_client,Technical (client),1,1,4
+excl_oct22_24,romanian,servers_access,Servers & access,0,0,4
+excl_oct22_24,romanian,social_teammates,Social & teammates,0,0,4
+excl_oct22_24,romanian,price_value,Price & value,1,1,4
+excl_oct22_24,romanian,unclear_other,Unclear / other,0,0,4

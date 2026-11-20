@@ -1,0 +1,251 @@
+event_window,basis,playtime_bucket,reason_code,reason,stopped,kept_playing,stop_rate_b_pct
+all_dates,all_reviewers,0-2h,all,All reviewers,2054,1776,53.6
+all_dates,primary,0-2h,cheaters,Cheaters,68,21,76.4
+all_dates,primary,0-2h,balance,Balance,34,9,79.1
+all_dates,primary,0-2h,grind_gear_gap,Grind & gear gap,189,26,87.9
+all_dates,primary,0-2h,ping_cap_region_access,Ping cap / region,52,32,61.9
+all_dates,primary,0-2h,progression_wipe,Progression wipe,32,4,88.9
+all_dates,primary,0-2h,gameplay_design,Gameplay & design,584,77,88.4
+all_dates,primary,0-2h,developer_trust_enforcement,Dev trust & bans,50,113,30.7
+all_dates,primary,0-2h,technical_client,Technical (client),445,239,65.1
+all_dates,primary,0-2h,servers_access,Servers & access,240,1008,19.2
+all_dates,primary,0-2h,social_teammates,Social & teammates,46,4,92.0
+all_dates,primary,0-2h,price_value,Price & value,52,18,74.3
+all_dates,primary,0-2h,unclear_other,Unclear / other,262,225,53.8
+all_dates,mentions,0-2h,cheaters,Cheaters,116,44,72.5
+all_dates,mentions,0-2h,balance,Balance,148,21,87.6
+all_dates,mentions,0-2h,grind_gear_gap,Grind & gear gap,291,41,87.7
+all_dates,mentions,0-2h,ping_cap_region_access,Ping cap / region,78,44,63.9
+all_dates,mentions,0-2h,progression_wipe,Progression wipe,69,13,84.1
+all_dates,mentions,0-2h,gameplay_design,Gameplay & design,842,128,86.8
+all_dates,mentions,0-2h,developer_trust_enforcement,Dev trust & bans,147,309,32.2
+all_dates,mentions,0-2h,technical_client,Technical (client),579,385,60.1
+all_dates,mentions,0-2h,servers_access,Servers & access,330,1136,22.5
+all_dates,mentions,0-2h,social_teammates,Social & teammates,133,22,85.8
+all_dates,mentions,0-2h,price_value,Price & value,203,118,63.2
+all_dates,mentions,0-2h,unclear_other,Unclear / other,262,225,53.8
+all_dates,all_reviewers,2-10h,all,All reviewers,1807,2613,40.9
+all_dates,primary,2-10h,cheaters,Cheaters,125,161,43.7
+all_dates,primary,2-10h,balance,Balance,102,152,40.2
+all_dates,primary,2-10h,grind_gear_gap,Grind & gear gap,318,265,54.5
+all_dates,primary,2-10h,ping_cap_region_access,Ping cap / region,82,43,65.6
+all_dates,primary,2-10h,progression_wipe,Progression wipe,57,22,72.2
+all_dates,primary,2-10h,gameplay_design,Gameplay & design,534,388,57.9
+all_dates,primary,2-10h,developer_trust_enforcement,Dev trust & bans,72,142,33.6
+all_dates,primary,2-10h,technical_client,Technical (client),174,319,35.3
+all_dates,primary,2-10h,servers_access,Servers & access,68,720,8.6
+all_dates,primary,2-10h,social_teammates,Social & teammates,42,32,56.8
+all_dates,primary,2-10h,price_value,Price & value,42,39,51.9
+all_dates,primary,2-10h,unclear_other,Unclear / other,191,330,36.7
+all_dates,mentions,2-10h,cheaters,Cheaters,198,249,44.3
+all_dates,mentions,2-10h,balance,Balance,282,338,45.5
+all_dates,mentions,2-10h,grind_gear_gap,Grind & gear gap,499,375,57.1
+all_dates,mentions,2-10h,ping_cap_region_access,Ping cap / region,98,62,61.3
+all_dates,mentions,2-10h,progression_wipe,Progression wipe,126,55,69.6
+all_dates,mentions,2-10h,gameplay_design,Gameplay & design,797,619,56.3
+all_dates,mentions,2-10h,developer_trust_enforcement,Dev trust & bans,138,349,28.3
+all_dates,mentions,2-10h,technical_client,Technical (client),236,454,34.2
+all_dates,mentions,2-10h,servers_access,Servers & access,117,876,11.8
+all_dates,mentions,2-10h,social_teammates,Social & teammates,136,111,55.1
+all_dates,mentions,2-10h,price_value,Price & value,145,171,45.9
+all_dates,mentions,2-10h,unclear_other,Unclear / other,191,330,36.7
+all_dates,all_reviewers,10-50h,all,All reviewers,2975,5495,35.1
+all_dates,primary,10-50h,cheaters,Cheaters,366,957,27.7
+all_dates,primary,10-50h,balance,Balance,216,712,23.3
+all_dates,primary,10-50h,grind_gear_gap,Grind & gear gap,496,1017,32.8
+all_dates,primary,10-50h,ping_cap_region_access,Ping cap / region,502,211,70.4
+all_dates,primary,10-50h,progression_wipe,Progression wipe,310,352,46.8
+all_dates,primary,10-50h,gameplay_design,Gameplay & design,263,513,33.9
+all_dates,primary,10-50h,developer_trust_enforcement,Dev trust & bans,226,150,60.1
+all_dates,primary,10-50h,technical_client,Technical (client),128,628,16.9
+all_dates,primary,10-50h,servers_access,Servers & access,55,334,14.1
+all_dates,primary,10-50h,social_teammates,Social & teammates,54,201,21.2
+all_dates,primary,10-50h,price_value,Price & value,43,69,38.4
+all_dates,primary,10-50h,unclear_other,Unclear / other,316,351,47.4
+all_dates,mentions,10-50h,cheaters,Cheaters,734,1347,35.3
+all_dates,mentions,10-50h,balance,Balance,516,1460,26.1
+all_dates,mentions,10-50h,grind_gear_gap,Grind & gear gap,813,1526,34.8
+all_dates,mentions,10-50h,ping_cap_region_access,Ping cap / region,561,289,66.0
+all_dates,mentions,10-50h,progression_wipe,Progression wipe,483,638,43.1
+all_dates,mentions,10-50h,gameplay_design,Gameplay & design,491,1124,30.4
+all_dates,mentions,10-50h,developer_trust_enforcement,Dev trust & bans,443,455,49.3
+all_dates,mentions,10-50h,technical_client,Technical (client),188,869,17.8
+all_dates,mentions,10-50h,servers_access,Servers & access,155,528,22.7
+all_dates,mentions,10-50h,social_teammates,Social & teammates,204,471,30.2
+all_dates,mentions,10-50h,price_value,Price & value,165,251,39.7
+all_dates,mentions,10-50h,unclear_other,Unclear / other,316,351,47.4
+all_dates,all_reviewers,50-200h,all,All reviewers,2611,9726,21.2
+all_dates,primary,50-200h,cheaters,Cheaters,424,2377,15.1
+all_dates,primary,50-200h,balance,Balance,214,1485,12.6
+all_dates,primary,50-200h,grind_gear_gap,Grind & gear gap,253,1098,18.7
+all_dates,primary,50-200h,ping_cap_region_access,Ping cap / region,610,1122,35.2
+all_dates,primary,50-200h,progression_wipe,Progression wipe,337,958,26.0
+all_dates,primary,50-200h,gameplay_design,Gameplay & design,91,432,17.4
+all_dates,primary,50-200h,developer_trust_enforcement,Dev trust & bans,240,298,44.6
+all_dates,primary,50-200h,technical_client,Technical (client),59,547,9.7
+all_dates,primary,50-200h,servers_access,Servers & access,53,494,9.7
+all_dates,primary,50-200h,social_teammates,Social & teammates,39,322,10.8
+all_dates,primary,50-200h,price_value,Price & value,22,69,24.2
+all_dates,primary,50-200h,unclear_other,Unclear / other,269,524,33.9
+all_dates,mentions,50-200h,cheaters,Cheaters,919,3627,20.2
+all_dates,mentions,50-200h,balance,Balance,430,2623,14.1
+all_dates,mentions,50-200h,grind_gear_gap,Grind & gear gap,517,2101,19.7
+all_dates,mentions,50-200h,ping_cap_region_access,Ping cap / region,726,1466,33.1
+all_dates,mentions,50-200h,progression_wipe,Progression wipe,504,1626,23.7
+all_dates,mentions,50-200h,gameplay_design,Gameplay & design,211,1072,16.4
+all_dates,mentions,50-200h,developer_trust_enforcement,Dev trust & bans,554,1158,32.4
+all_dates,mentions,50-200h,technical_client,Technical (client),103,872,10.6
+all_dates,mentions,50-200h,servers_access,Servers & access,138,956,12.6
+all_dates,mentions,50-200h,social_teammates,Social & teammates,156,796,16.4
+all_dates,mentions,50-200h,price_value,Price & value,70,280,20.0
+all_dates,mentions,50-200h,unclear_other,Unclear / other,269,524,33.9
+all_dates,all_reviewers,200h+,all,All reviewers,360,4074,8.1
+all_dates,primary,200h+,cheaters,Cheaters,68,1080,5.9
+all_dates,primary,200h+,balance,Balance,30,718,4.0
+all_dates,primary,200h+,grind_gear_gap,Grind & gear gap,13,153,7.8
+all_dates,primary,200h+,ping_cap_region_access,Ping cap / region,104,744,12.3
+all_dates,primary,200h+,progression_wipe,Progression wipe,35,355,9.0
+all_dates,primary,200h+,gameplay_design,Gameplay & design,10,126,7.4
+all_dates,primary,200h+,developer_trust_enforcement,Dev trust & bans,44,227,16.2
+all_dates,primary,200h+,technical_client,Technical (client),7,123,5.4
+all_dates,primary,200h+,servers_access,Servers & access,7,176,3.8
+all_dates,primary,200h+,social_teammates,Social & teammates,6,92,6.1
+all_dates,primary,200h+,price_value,Price & value,2,57,3.4
+all_dates,primary,200h+,unclear_other,Unclear / other,34,223,13.2
+all_dates,mentions,200h+,cheaters,Cheaters,154,1784,7.9
+all_dates,mentions,200h+,balance,Balance,57,1076,5.0
+all_dates,mentions,200h+,grind_gear_gap,Grind & gear gap,35,451,7.2
+all_dates,mentions,200h+,ping_cap_region_access,Ping cap / region,128,1002,11.3
+all_dates,mentions,200h+,progression_wipe,Progression wipe,60,636,8.6
+all_dates,mentions,200h+,gameplay_design,Gameplay & design,18,347,4.9
+all_dates,mentions,200h+,developer_trust_enforcement,Dev trust & bans,88,757,10.4
+all_dates,mentions,200h+,technical_client,Technical (client),14,234,5.6
+all_dates,mentions,200h+,servers_access,Servers & access,19,402,4.5
+all_dates,mentions,200h+,social_teammates,Social & teammates,16,274,5.5
+all_dates,mentions,200h+,price_value,Price & value,14,142,9.0
+all_dates,mentions,200h+,unclear_other,Unclear / other,34,223,13.2
+excl_oct22_24,all_reviewers,0-2h,all,All reviewers,2023,1772,53.3
+excl_oct22_24,primary,0-2h,cheaters,Cheaters,65,21,75.6
+excl_oct22_24,primary,0-2h,balance,Balance,34,9,79.1
+excl_oct22_24,primary,0-2h,grind_gear_gap,Grind & gear gap,188,25,88.3
+excl_oct22_24,primary,0-2h,ping_cap_region_access,Ping cap / region,46,32,59.0
+excl_oct22_24,primary,0-2h,progression_wipe,Progression wipe,31,4,88.6
+excl_oct22_24,primary,0-2h,gameplay_design,Gameplay & design,574,77,88.2
+excl_oct22_24,primary,0-2h,developer_trust_enforcement,Dev trust & bans,49,113,30.2
+excl_oct22_24,primary,0-2h,technical_client,Technical (client),443,239,65.0
+excl_oct22_24,primary,0-2h,servers_access,Servers & access,238,1007,19.1
+excl_oct22_24,primary,0-2h,social_teammates,Social & teammates,46,4,92.0
+excl_oct22_24,primary,0-2h,price_value,Price & value,51,18,73.9
+excl_oct22_24,primary,0-2h,unclear_other,Unclear / other,258,223,53.6
+excl_oct22_24,mentions,0-2h,cheaters,Cheaters,109,44,71.2
+excl_oct22_24,mentions,0-2h,balance,Balance,146,21,87.4
+excl_oct22_24,mentions,0-2h,grind_gear_gap,Grind & gear gap,287,40,87.8
+excl_oct22_24,mentions,0-2h,ping_cap_region_access,Ping cap / region,71,44,61.7
+excl_oct22_24,mentions,0-2h,progression_wipe,Progression wipe,67,13,83.8
+excl_oct22_24,mentions,0-2h,gameplay_design,Gameplay & design,829,127,86.7
+excl_oct22_24,mentions,0-2h,developer_trust_enforcement,Dev trust & bans,145,309,31.9
+excl_oct22_24,mentions,0-2h,technical_client,Technical (client),576,385,59.9
+excl_oct22_24,mentions,0-2h,servers_access,Servers & access,326,1135,22.3
+excl_oct22_24,mentions,0-2h,social_teammates,Social & teammates,130,22,85.5
+excl_oct22_24,mentions,0-2h,price_value,Price & value,200,118,62.9
+excl_oct22_24,mentions,0-2h,unclear_other,Unclear / other,258,223,53.6
+excl_oct22_24,all_reviewers,2-10h,all,All reviewers,1722,2575,40.1
+excl_oct22_24,primary,2-10h,cheaters,Cheaters,115,154,42.8
+excl_oct22_24,primary,2-10h,balance,Balance,102,148,40.8
+excl_oct22_24,primary,2-10h,grind_gear_gap,Grind & gear gap,316,260,54.9
+excl_oct22_24,primary,2-10h,ping_cap_region_access,Ping cap / region,42,31,57.5
+excl_oct22_24,primary,2-10h,progression_wipe,Progression wipe,56,22,71.8
+excl_oct22_24,primary,2-10h,gameplay_design,Gameplay & design,520,386,57.4
+excl_oct22_24,primary,2-10h,developer_trust_enforcement,Dev trust & bans,63,139,31.2
+excl_oct22_24,primary,2-10h,technical_client,Technical (client),172,319,35.0
+excl_oct22_24,primary,2-10h,servers_access,Servers & access,67,716,8.6
+excl_oct22_24,primary,2-10h,social_teammates,Social & teammates,41,32,56.2
+excl_oct22_24,primary,2-10h,price_value,Price & value,42,39,51.9
+excl_oct22_24,primary,2-10h,unclear_other,Unclear / other,186,329,36.1
+excl_oct22_24,mentions,2-10h,cheaters,Cheaters,168,237,41.5
+excl_oct22_24,mentions,2-10h,balance,Balance,280,331,45.8
+excl_oct22_24,mentions,2-10h,grind_gear_gap,Grind & gear gap,491,367,57.2
+excl_oct22_24,mentions,2-10h,ping_cap_region_access,Ping cap / region,55,47,53.9
+excl_oct22_24,mentions,2-10h,progression_wipe,Progression wipe,120,53,69.4
+excl_oct22_24,mentions,2-10h,gameplay_design,Gameplay & design,779,613,56.0
+excl_oct22_24,mentions,2-10h,developer_trust_enforcement,Dev trust & bans,118,342,25.7
+excl_oct22_24,mentions,2-10h,technical_client,Technical (client),234,453,34.1
+excl_oct22_24,mentions,2-10h,servers_access,Servers & access,113,867,11.5
+excl_oct22_24,mentions,2-10h,social_teammates,Social & teammates,131,107,55.0
+excl_oct22_24,mentions,2-10h,price_value,Price & value,142,170,45.5
+excl_oct22_24,mentions,2-10h,unclear_other,Unclear / other,186,329,36.1
+excl_oct22_24,all_reviewers,10-50h,all,All reviewers,2469,5182,32.3
+excl_oct22_24,primary,10-50h,cheaters,Cheaters,289,894,24.4
+excl_oct22_24,primary,10-50h,balance,Balance,204,695,22.7
+excl_oct22_24,primary,10-50h,grind_gear_gap,Grind & gear gap,473,1001,32.1
+excl_oct22_24,primary,10-50h,ping_cap_region_access,Ping cap / region,273,110,71.3
+excl_oct22_24,primary,10-50h,progression_wipe,Progression wipe,282,344,45.0
+excl_oct22_24,primary,10-50h,gameplay_design,Gameplay & design,251,504,33.2
+excl_oct22_24,primary,10-50h,developer_trust_enforcement,Dev trust & bans,200,143,58.3
+excl_oct22_24,primary,10-50h,technical_client,Technical (client),124,613,16.8
+excl_oct22_24,primary,10-50h,servers_access,Servers & access,42,284,12.9
+excl_oct22_24,primary,10-50h,social_teammates,Social & teammates,52,195,21.1
+excl_oct22_24,primary,10-50h,price_value,Price & value,36,67,35.0
+excl_oct22_24,primary,10-50h,unclear_other,Unclear / other,243,332,42.3
+excl_oct22_24,mentions,10-50h,cheaters,Cheaters,546,1211,31.1
+excl_oct22_24,mentions,10-50h,balance,Balance,485,1428,25.4
+excl_oct22_24,mentions,10-50h,grind_gear_gap,Grind & gear gap,759,1495,33.7
+excl_oct22_24,mentions,10-50h,ping_cap_region_access,Ping cap / region,308,166,65.0
+excl_oct22_24,mentions,10-50h,progression_wipe,Progression wipe,437,622,41.3
+excl_oct22_24,mentions,10-50h,gameplay_design,Gameplay & design,467,1101,29.8
+excl_oct22_24,mentions,10-50h,developer_trust_enforcement,Dev trust & bans,350,427,45.0
+excl_oct22_24,mentions,10-50h,technical_client,Technical (client),177,849,17.3
+excl_oct22_24,mentions,10-50h,servers_access,Servers & access,113,447,20.2
+excl_oct22_24,mentions,10-50h,social_teammates,Social & teammates,161,444,26.6
+excl_oct22_24,mentions,10-50h,price_value,Price & value,150,242,38.3
+excl_oct22_24,mentions,10-50h,unclear_other,Unclear / other,243,332,42.3
+excl_oct22_24,all_reviewers,50-200h,all,All reviewers,1964,8386,19.0
+excl_oct22_24,primary,50-200h,cheaters,Cheaters,314,2097,13.0
+excl_oct22_24,primary,50-200h,balance,Balance,191,1423,11.8
+excl_oct22_24,primary,50-200h,grind_gear_gap,Grind & gear gap,232,1068,17.8
+excl_oct22_24,primary,50-200h,ping_cap_region_access,Ping cap / region,301,533,36.1
+excl_oct22_24,primary,50-200h,progression_wipe,Progression wipe,312,912,25.5
+excl_oct22_24,primary,50-200h,gameplay_design,Gameplay & design,81,415,16.3
+excl_oct22_24,primary,50-200h,developer_trust_enforcement,Dev trust & bans,188,254,42.5
+excl_oct22_24,primary,50-200h,technical_client,Technical (client),52,518,9.1
+excl_oct22_24,primary,50-200h,servers_access,Servers & access,36,353,9.3
+excl_oct22_24,primary,50-200h,social_teammates,Social & teammates,38,305,11.1
+excl_oct22_24,primary,50-200h,price_value,Price & value,19,62,23.5
+excl_oct22_24,primary,50-200h,unclear_other,Unclear / other,200,446,31.0
+excl_oct22_24,mentions,50-200h,cheaters,Cheaters,615,3003,17.0
+excl_oct22_24,mentions,50-200h,balance,Balance,384,2515,13.2
+excl_oct22_24,mentions,50-200h,grind_gear_gap,Grind & gear gap,470,2028,18.8
+excl_oct22_24,mentions,50-200h,ping_cap_region_access,Ping cap / region,377,778,32.6
+excl_oct22_24,mentions,50-200h,progression_wipe,Progression wipe,461,1545,23.0
+excl_oct22_24,mentions,50-200h,gameplay_design,Gameplay & design,190,1018,15.7
+excl_oct22_24,mentions,50-200h,developer_trust_enforcement,Dev trust & bans,398,975,29.0
+excl_oct22_24,mentions,50-200h,technical_client,Technical (client),85,818,9.4
+excl_oct22_24,mentions,50-200h,servers_access,Servers & access,80,629,11.3
+excl_oct22_24,mentions,50-200h,social_teammates,Social & teammates,117,679,14.7
+excl_oct22_24,mentions,50-200h,price_value,Price & value,58,249,18.9
+excl_oct22_24,mentions,50-200h,unclear_other,Unclear / other,200,446,31.0
+excl_oct22_24,all_reviewers,200h+,all,All reviewers,263,3274,7.4
+excl_oct22_24,primary,200h+,cheaters,Cheaters,54,890,5.7
+excl_oct22_24,primary,200h+,balance,Balance,25,677,3.6
+excl_oct22_24,primary,200h+,grind_gear_gap,Grind & gear gap,12,143,7.7
+excl_oct22_24,primary,200h+,ping_cap_region_access,Ping cap / region,55,405,12.0
+excl_oct22_24,primary,200h+,progression_wipe,Progression wipe,33,322,9.3
+excl_oct22_24,primary,200h+,gameplay_design,Gameplay & design,9,115,7.3
+excl_oct22_24,primary,200h+,developer_trust_enforcement,Dev trust & bans,33,186,15.1
+excl_oct22_24,primary,200h+,technical_client,Technical (client),6,107,5.3
+excl_oct22_24,primary,200h+,servers_access,Servers & access,4,119,3.3
+excl_oct22_24,primary,200h+,social_teammates,Social & teammates,5,88,5.4
+excl_oct22_24,primary,200h+,price_value,Price & value,1,53,1.9
+excl_oct22_24,primary,200h+,unclear_other,Unclear / other,26,169,13.3
+excl_oct22_24,mentions,200h+,cheaters,Cheaters,104,1357,7.1
+excl_oct22_24,mentions,200h+,balance,Balance,44,994,4.2
+excl_oct22_24,mentions,200h+,grind_gear_gap,Grind & gear gap,32,420,7.1
+excl_oct22_24,mentions,200h+,ping_cap_region_access,Ping cap / region,71,592,10.7
+excl_oct22_24,mentions,200h+,progression_wipe,Progression wipe,54,585,8.5
+excl_oct22_24,mentions,200h+,gameplay_design,Gameplay & design,15,327,4.4
+excl_oct22_24,mentions,200h+,developer_trust_enforcement,Dev trust & bans,70,612,10.3
+excl_oct22_24,mentions,200h+,technical_client,Technical (client),11,203,5.1
+excl_oct22_24,mentions,200h+,servers_access,Servers & access,9,245,3.5
+excl_oct22_24,mentions,200h+,social_teammates,Social & teammates,12,225,5.1
+excl_oct22_24,mentions,200h+,price_value,Price & value,10,127,7.3
+excl_oct22_24,mentions,200h+,unclear_other,Unclear / other,26,169,13.3
