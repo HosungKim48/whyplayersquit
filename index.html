@@ -18,19 +18,24 @@
 <nav aria-label="Main"><ul class="nav"><li><a href="./projects/">Projects</a></li><li><a href="./method/">Method</a></li><li><a href="./notes/">Notes</a></li><li><a href="./data/">Data</a></li><li><a href="./about/">About</a></li></ul></nav>
 </div></header>
 <main>
-<section class="hero">
+<section class="hero hero-wave">
+<canvas class="wave" aria-hidden="true"></canvas>
+<div class="hero-inner">
 <h1>Which complaints actually come before players quit.</h1>
-<p class="lede">The most common complaint in a game's negative reviews is often not the one that makes players leave. whyplayersquit follows games over time: it labels the reason in every negative review, in every language, then checks whether the reviewer kept playing.</p>
+<p class="lede">The loudest complaint is rarely the one that makes players leave.</p>
+<p class="hero-actions"><a class="btn btn-primary" href="./projects/">Browse reports</a><a class="btn" href="./method/">Read the method</a></p>
+</div>
+<button type="button" class="wave-toggle" aria-pressed="false">Pause motion</button>
 </section>
+<script src="./js/wave.js" defer></script>
 
 <h2>How it works</h2>
 <ol class="steps">
-<li><span class="label">Collect</span><p>Every public Steam review of the game, in every language.</p></li>
-<li><span class="label">Label</span><p>Each negative review is read in its original language and tagged with its main reason, using a fixed codebook checked by hand.</p></li>
-<li><span class="label">Follow up</span><p>Steam's playtime data shows whether each reviewer kept playing or stopped.</p></li>
-<li><span class="label">Report</span><p>One live report per game on which complaints come before quitting, by hours played. Refreshed weekly; big changes get a short update report.</p></li>
+<li><span class="label">Collect</span><p>Every Steam review, every language</p></li>
+<li><span class="label">Label</span><p>Main reason per negative review</p></li>
+<li><span class="label">Follow up</span><p>Did they keep playing?</p></li>
+<li><span class="label">Report</span><p>One live report per game, weekly</p></li>
 </ol>
-<p class="meta"><a href="./method/">Read the method</a></p>
 
 <h2>Projects</h2>
 <div class="panel">
