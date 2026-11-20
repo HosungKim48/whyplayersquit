@@ -300,7 +300,8 @@
       active = i;
       chips.querySelectorAll("button").forEach((b, j) => b.setAttribute("aria-pressed", String(j === i)));
       const e = EVENTS[i], w = win().weekly;
-      panel.innerHTML = `<h4>${e.title}</h4><p>${e.what}</p><p>${fill(e.stat, w, e.week)}</p><blockquote>“${e.quote}”<span class="who">${e.who}, paraphrased</span></blockquote>`;
+      panel.innerHTML = `<h4>${e.title}</h4><p>${e.what}</p><p>${fill(e.stat, w, e.week)}</p><blockquote>“${e.quote}”<span class="who">${e.who}, paraphrased</span></blockquote>` +
+        (e.sources ? `<p class="sources">Source: ${e.sources.map((s) => `<a href="${s.url}" rel="noopener">${s.label}</a>`).join(" · ")}</p>` : "");
       el.querySelectorAll('g.event-marker circle').forEach((c, j) => { c.setAttribute("fill", j === i ? ACCENT : PANEL); c.setAttribute("stroke", j === i ? ACCENT : INK2); });
       el.querySelectorAll('g.event-marker-text text').forEach((t, j) => t.setAttribute("fill", j === i ? ON_ACCENT : INK));
     }

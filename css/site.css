@@ -240,3 +240,35 @@ a.report-card:hover h2, a.report-card:hover h3 { color: var(--accent); }
   .steps li + li { border-left: 0; }
   .steps li + li { border-top: 1px solid var(--rule); }
 }
+
+/* ---------- report page: developer-first layout ---------- */
+.report-head { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: var(--s4); align-items: start; max-width: var(--max); margin: 0 auto; }
+.report-head h1 { margin-bottom: var(--s2); }
+.report-head .meta { margin-bottom: 0; }
+.report-head .art { margin: 6px 0 0; }
+.findings { position: relative; background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: var(--s4); margin: var(--s5) 0 var(--s4); }
+.findings h2, .suggest > h2 { margin: 0 0 var(--s2); padding: 0; border: 0; font-size: 26px; }
+.findings > p { font-size: 19px; line-height: 1.45; color: var(--text); margin-bottom: var(--s3); }
+.findings ul { margin: 0; padding-left: 1.2em; }
+.findings li { margin: 8px 0; }
+.suggest { margin: var(--s5) 0 0; }
+.cards, .prose .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s3); }
+.card { background: var(--panel); border: 1px solid var(--rule); padding: var(--s3) var(--s4); }
+.card h3 { display: flex; gap: var(--s2); align-items: baseline; margin: 0 0 var(--s2); font-size: 23px; }
+.card h3 .n { font: 500 14px/1 var(--mono); color: var(--accent); }
+.card dl { margin: 0; }
+.card .row { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: var(--s3); padding: 6px 0; border-top: 1px solid var(--rule); }
+.card dt { font: 500 12px/1.9 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--text3); }
+.card dd { margin: 0; font-size: 15px; line-height: 1.55; color: var(--text2); }
+.card .row:first-child dd { color: var(--text); }
+.contact { margin: var(--s3) 0 0; font-size: 15px; color: var(--text2); }
+.watch h3 { margin: 0 0 var(--s2); font-size: 22px; }
+.watch p { color: var(--text2); font-size: 15px; margin-bottom: 0; }
+.event-panel p.sources { font: 13px/1.5 var(--sans); color: var(--text3); margin: var(--s2) 0 0; }
+.event-panel p.sources a { color: var(--text2); }
+@media (max-width: 640px) {
+  .report-head { grid-template-columns: minmax(0, 1fr); gap: var(--s3); }
+  .report-head .art { max-width: 200px; margin: 0; }
+  .findings, .card { padding: var(--s3); }
+  .card .row { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}
